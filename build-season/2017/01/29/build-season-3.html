@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>
+    
+      Team 3128: 2017 Build Season Update No. 3
+    
+  </title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js">
+  </script>
+
+  <link rel="shortcut icon" type="image/png" href="/%7B%7D/assets/graphics/favicon.png"/>
+  <link rel="icon" type="image/png" href="/%7B%7D/assets/graphics/favicon.png"/>
+
+  <meta name="description" content="Hello Narwhals!I hope everyone is having a fantastic Sunday, and taking a nice break after finals. Robotics was not particularly busy during Week 4, due to t...">
+
+  <link rel="stylesheet" href="/%7B%7D/css/main.css">
+  <link rel="canonical" href="/build-season/2017/01/29/build-season-3.html">
+  <link rel="alternate" type="application/rss+xml" title="Team 3128: Aluminium Narwhals" href="/%7B%7D/feed.xml">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  
+  <!-- Google Analytics -->
+  
+  
+</head>
+
+
+    <body>
+        <header class="site-header">
+    <div style="display: flex; flex-direction: row; align-items: center; height: 70px; margin: 5px; padding: 0px 4px;">
+        <a href="{}/" style="flex: auto 1 0">
+            <img style="width: 90px; display: inline-block"  src="/%7B%7D/assets/header/logo.png" />
+            
+            <img style="height: 70px;" class="normaltitle" src="/%7B%7D/assets/header/wordmark.png" />
+            <img style="height: 70px;" class="smalltitle" src="/%7B%7D/assets/header/nummark.png" />
+        </a>
+        
+        <div onclick="togglemenu()" class="small_navigation_button hover_animate" style="width: 100%; text-align: center; margin: 0px 8px; font-size: 40px; color: white;">
+            ☰
+        </div>
+
+        <div id="normal_navigation" class="normal_navigation">
+            <nav class="site-nav" style="display: flex; flex-direction: row; justify-content: flex-end; align-items: stretch; margin-right: 12px; ">
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/about/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            About
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/sponsors/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            Sponsors
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/outreach/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            Outreach
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/camp/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            Camp
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/blog/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            Blog
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/members/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            Members
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/resources/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            Resources
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/support-us/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            Support Us
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/contact/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            Contact
+                        </div>
+                    </a>
+                </div>
+                
+
+                
+                <div style="flex: 40px 0 0; margin-left: 8px; display: flex; flex-direction: column; justify-content: center;">
+                    <a href="https://www.facebook.com/aluminumnarwhals">
+                        <img id="/%7B%7D/facebook" />
+                    </a>
+                </div>
+                
+                <div style="flex: 40px 0 0; margin-left: 8px; display: flex; flex-direction: column; justify-content: center;">
+                    <a href="https://github.com/Team3128">
+                        <img id="/%7B%7D/github" />
+                    </a>
+                </div>
+                
+                <div style="flex: 40px 0 0; margin-left: 8px; display: flex; flex-direction: column; justify-content: center;">
+                    <a href="https://www.instagram.com/3128aluminarwhals">
+                        <img id="/%7B%7D/instagram" />
+                    </a>
+                </div>
+                
+                <div style="flex: 40px 0 0; margin-left: 8px; display: flex; flex-direction: column; justify-content: center;">
+                    <a href="https://twitter.com/FRCTeam3128">
+                        <img id="/%7B%7D/twitter" />
+                    </a>
+                </div>
+                
+            </nav>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $("#navigation_dropdown").css("height", "0px");
+        });
+
+        $(window).resize(function() {
+            if ($("#normal_navigation").css("display") == "block") {
+                $("#navigation_dropdown").css("height", "0px");
+            }
+        })
+        
+        function togglemenu() {
+            var sdiv = $("#navigation_dropdown");
+            
+            if (sdiv.css("height") == "0px") {
+                sdiv.animate({height: $("#smallmenu").css("height")}, "fast");
+            }
+            else {
+                sdiv.animate({height: '0px'}, "fast");
+            }
+        }
+    </script>
+    
+    <div id="navigation_dropdown" style="height: 0px;">
+        <nav id="smallmenu" style="display: flex; flex-direction: column; align-items: stretch; width: 100%;">
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/about/" class="nounder">
+                    <div style="padding: 12px;">
+                        About
+                    </div>
+                </a>
+            </div>
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/sponsors/" class="nounder">
+                    <div style="padding: 12px;">
+                        Sponsors
+                    </div>
+                </a>
+            </div>
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/outreach/" class="nounder">
+                    <div style="padding: 12px;">
+                        Outreach
+                    </div>
+                </a>
+            </div>
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/camp/" class="nounder">
+                    <div style="padding: 12px;">
+                        Camp
+                    </div>
+                </a>
+            </div>
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/blog/" class="nounder">
+                    <div style="padding: 12px;">
+                        Blog
+                    </div>
+                </a>
+            </div>
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/members/" class="nounder">
+                    <div style="padding: 12px;">
+                        Members
+                    </div>
+                </a>
+            </div>
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/resources/" class="nounder">
+                    <div style="padding: 12px;">
+                        Resources
+                    </div>
+                </a>
+            </div>
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/support-us/" class="nounder">
+                    <div style="padding: 12px;">
+                        Support Us
+                    </div>
+                </a>
+            </div>
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/contact/" class="nounder">
+                    <div style="padding: 12px;">
+                        Contact
+                    </div>
+                </a>
+            </div>
+            
+
+            <div class="dropdown_social">
+                
+                <div class="icon">
+                    <a href="https://www.facebook.com/aluminumnarwhals">
+                        <img id="facebook" />
+                    </a>
+                </div>
+                
+                <div class="icon">
+                    <a href="https://github.com/Team3128">
+                        <img id="github" />
+                    </a>
+                </div>
+                
+                <div class="icon">
+                    <a href="https://www.instagram.com/3128aluminarwhals">
+                        <img id="instagram" />
+                    </a>
+                </div>
+                
+                <div class="icon">
+                    <a href="https://twitter.com/FRCTeam3128">
+                        <img id="twitter" />
+                    </a>
+                </div>
+                
+            </div>
+        </nav>
+    </div>
+</header>
+
+        
+        <div class="page-content">
+            <img id="pageimage" src="/%7B%7D/assets/page_headers/standard.jpeg" />
+
+
+<div>
+    <div id="page-header" class="page-heading" style="background: rgba(0,0,0,.55); width: 100%; position: relative; left: 0px;">
+        
+        <div class="subpage_wrapper" style="padding-left: 20px;">
+            2017 Build Season Update No. 3
+        </div>
+        
+    </div>
+</div>
+
+
+<div id="wrap" class="subpage_wrapper">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        
+        <table style="background:white; z-index: 1; position: relative; height: 1px;" cellpadding="0px" cellspacing="0px" width="100%">
+            <tr cellpadding="0px">
+                <td class="sidebar-td" style="vertical-align: top; padding: 0px; background: #bfbfbf;">
+                    
+                    <table id="tabbar" cellspacing="10px" cellpadding="0px">
+                        <tr>
+                            <td class="indexpost hover_animate" style="padding: 10px; font-weight: bolder;vertical-align: middle;text-align: center;" onClick="javascript:location.href='/blog/'" >
+                                Latest Updates
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="indexpost hover_animate" style="vertical-align: middle;" onClick="javascript:location.href='{}/build-season/2022/02/11/build-season-4.html'" >
+                                <div style="margin: -10px; vertical-align: middle;" class="tabtext">
+                                    2022 Build Season - Week 5
+                                    <br>
+                                    <span class="post-meta">Feb 11, 2022<br>Emma C.</span>
+                                </div>
+                                
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="indexpost hover_animate" style="vertical-align: middle;" onClick="javascript:location.href='{}/build-season/2022/02/11/build-season-3.html'" >
+                                <div style="margin: -10px; vertical-align: middle;" class="tabtext">
+                                    2022 Build Season - Week 3+4
+                                    <br>
+                                    <span class="post-meta">Feb 11, 2022<br>Francesca P.</span>
+                                </div>
+                                
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="indexpost hover_animate" style="vertical-align: middle;" onClick="javascript:location.href='{}/build-season/2022/01/27/build-season-2.html'" >
+                                <div style="margin: -10px; vertical-align: middle;" class="tabtext">
+                                    2022 Build Season - Week 2
+                                    <br>
+                                    <span class="post-meta">Jan 27, 2022<br>Emma C.</span>
+                                </div>
+                                
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="indexpost hover_animate" style="vertical-align: middle;" onClick="javascript:location.href='{}/build-season/2022/01/19/build-season-1.html'" >
+                                <div style="margin: -10px; vertical-align: middle;" class="tabtext">
+                                    2022 Build Season - Week 1
+                                    <br>
+                                    <span class="post-meta">Jan 19, 2022<br>Emma C.</span>
+                                </div>
+                                
+                            </td>
+                        </tr>
+                        
+                    </table>
+                    
+                    <table cellspacing="0px" cellpadding="10px" width="150px">
+                        <tr>
+                            <td>
+                                <font color="#bfbfbf">Placeholder for Chrome</font>
+                            </td>
+                        </tr>
+                    </table>
+                    
+                </td>
+                <td style="padding: 20px;" style="width: 100%; height: 100%; vertical-align: top;">
+                    <div class="contentdiv" style="height: 100%;">
+                        <time datetime="2017-01-29T06:00:00-08:00" itemprop="datePublished">Jan 29, 2017</time> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Caroline M.</span></span>
+                        <br>
+                        <br>
+                        <p>Hello Narwhals!</p>
+
+<p>I hope everyone is having a fantastic Sunday, and taking a nice break after finals. Robotics was not particularly busy during Week 4, due to those pesky exams on Thursday and Friday. The robot design is really coming together, and the build team is soon to begin assembly with ordered parts. The team is revved to kick it up a notch for the 2nd half of build season. I believe it is safe to say that we are all very excited! Here are some reminders for the next week:</p>
+
+<h4 id="robotics-meetings-on-130-and-131">Robotics Meetings on 1/30 and 1/31:</h4>
+<p>We will be having meetings this upcoming Monday and Tuesday from 10am-4pm. Robotics will continue its daily meetings on Wednesday, Thursday, Friday, and Saturday for Week 4. For future planning, go ahead and check out <a href="/students/calendar/">our team calendar</a>.</p>
+
+<h4 id="attendance-scanner">Attendance Scanner:</h4>
+<p>The attendance scanner has been in maintenance with Ronak for a few days, so please remember to count your hours on the <a href="/assets/documents/FRC_Time_Log_Workshop.pdf">Time Log Worksheet</a>. You must submit the form to Tyler when completed. As soon as the scanner is back and beautiful, you can go ahead and return to using your Student ID for scans in/out.</p>
+
+<p>Now for the sector updates!</p>
+
+<p><strong>Mechanical:</strong><br />
+This week has no doubt been a slow week for mechanical because of these little things called finals. CAD is nearing completion and manufacturing has already started for both robots. Tomorrow, manufacturing will continue as we cut out our first gear box plates among other things. We are a little behind where we would like to be, but we are still in the same boat as other teams like Paradox.</p>
+
+<p><strong>Business:</strong><br />
+These past two weeks have been a bit slow as we wait for various sectors to catch up. Chairman’s video production is in its early stage as we being filming various parts of the video. We have been using other teams’ award videos as inspiration along with creating ideas unique to our team, and we are very excited to see how it turns out. T-Shirts will be ordered soon, and we expect to announce pick up time in about 3-4 weeks. After completion of robot CAD, we plan to construct a thorough exploded-view and descriptions of the various mechanisms to present to spectators and judges during competition. The level of dedication in our team so far has been phenomenal, and we can’t wait to make our plans and designs come to action!</p>
+
+<p><strong>Submissions:</strong><br />
+For submissions thus far, I have added on to updating the short answer Chairman’s Essay as well as schedule a short session with a possible new mentor. I was able to find some new sponsorship sources via SDMG and Zoë and Jared. The very beginnings of the Woodie Flowers award are being produced and the Chairman’s presentation is more defined in its theme. Filming will begin shortly and I expect everyone will be excited to represent Aluminum Narwhal spirit!</p>
+
+<p><strong>Controls:</strong><br />
+This week, with the robot design nearing completion, controls team started writing the robot code.  We programmed most of the teleoperated logic, and next week we’ll start on the autonomous programs, and then test our code in the emulator.  Our goal is to have code ready to download by the time the robot is built.  We also planned out and inventoried the electronics that we’ll need.  Next week, we will wire up the electronics board.  Get ready, programmers, because controls is about to awaken from its three-week torpor!</p>
+
+<p><strong>Strategy:</strong><br />
+Strategy has been developing databases with the past accomplishments of teams registered for the San Diego Regional in preparation for scouting training and the development of this year’s scouting sheets (documents used by scouts at competitions to document the performance of various robots). The basic format and structure of the scouting sheets was put together on Friday, allowing us to also begin working on the excel spreadsheet that will facilitate data processing. Match strategy has proceeded steadily, and while it will likely continue to be altered as we receive updates from mechanical, an outline is being compiled into a strategy handbook. We are hoping this new tool will help to expedite communication between strategy and the drive team during competitions. This coming week we will be moving on to both predicting which game aspects will be emphasized and training for scouting. This will involve looking at matches from previous FRC challenges and discussing the strengths and weaknesses of both individual teams and alliances.</p>
+
+<p>Thank you,
+Caroline M.</p>
+
+                        <a href="/blog/"><div class="button hover_animate" style="text-align: center;"><h4>See more updates...</h4></div></a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </article>
+</div>
+
+
+<script>
+    $( '#page-header' ).ready(function(){
+        $('#wrap').css("margin-top", "-" + ($('#page-header').height() - 1 * $('#page-header').height() / 60) + "px");
+        $('#page-header').css("bottom", ($('#page-header').height() - 1 * $('#page-header').height() / 60) + "px");
+    });
+    
+    var width = $(window).width();
+    $(window).resize(function(){
+        if($(this).width() != width){
+            $('#wrap').css("margin-top", "-" + ($('#page-header').height() - 1 * $('#page-header').height() / 60) + "px");
+            $('#page-header').css("bottom", ($('#page-header').height() - 1 * $('#page-header').height() / 60) + "px");
+        }
+    });
+</script>
+        </div>
+        
+        <footer class="site-footer">
+  <div class="wrapper">
+	<h2 class="footer-heading">Team 3128: Aluminium Narwhals</h2>
+    	<div class="footer-col-wrapper">
+      		<div class="footer-col footer-col-1">
+        		<ul class="contact-list">
+          			<li><a class="footer-list-a" href="/about/">About</a></li>
+          			<li><a class="footer-list-a" href="/sponsors/">Sponsors</a></li>
+				<li><a class="footer-list-a" href="/camp/">Summer Camp</a></li>
+          			<li><a class="footer-list-a" href="/blog/">Blog</a></li>
+        		</ul>
+      		</div>
+      		<div class="footer-col footer-col-2">
+      			<ul class="contact-list">
+      			<li><a class="footer-list-a" href="/outreach/">Outreach</a></li>
+          		<li><a class="footer-list-a" href="/members/">Members</a></li>
+          		<li><a class="footer-list-a" href="/contact/">Contact</a></li>
+          	</ul>
+     			</div>
+      		<div align="right" class="footer-col footer-col-3">
+        		<p>Copyright © 2015-2021 Team 3128: Aluminum Narwhals</p>
+      		</div>
+    	</div>
+	</div>
+</footer>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-75161664-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    </body>
+</html>

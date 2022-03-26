@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>
+    
+      Team 3128: Blog
+    
+  </title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js">
+  </script>
+
+  <link rel="shortcut icon" type="image/png" href="/%7B%7D/assets/graphics/favicon.png"/>
+  <link rel="icon" type="image/png" href="/%7B%7D/assets/graphics/favicon.png"/>
+
+  <meta name="description" content="Copyright © 2015-2021 Team 3128: Aluminum Narwhals">
+
+  <link rel="stylesheet" href="/%7B%7D/css/main.css">
+  <link rel="canonical" href="/blog/">
+  <link rel="alternate" type="application/rss+xml" title="Team 3128: Aluminium Narwhals" href="/%7B%7D/feed.xml">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  
+  <!-- Google Analytics -->
+  
+  
+</head>
+
+
+    <body>
+        <header class="site-header">
+    <div style="display: flex; flex-direction: row; align-items: center; height: 70px; margin: 5px; padding: 0px 4px;">
+        <a href="{}/" style="flex: auto 1 0">
+            <img style="width: 90px; display: inline-block"  src="/%7B%7D/assets/header/logo.png" />
+            
+            <img style="height: 70px;" class="normaltitle" src="/%7B%7D/assets/header/wordmark.png" />
+            <img style="height: 70px;" class="smalltitle" src="/%7B%7D/assets/header/nummark.png" />
+        </a>
+        
+        <div onclick="togglemenu()" class="small_navigation_button hover_animate" style="width: 100%; text-align: center; margin: 0px 8px; font-size: 40px; color: white;">
+            ☰
+        </div>
+
+        <div id="normal_navigation" class="normal_navigation">
+            <nav class="site-nav" style="display: flex; flex-direction: row; justify-content: flex-end; align-items: stretch; margin-right: 12px; ">
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/about/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            About
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/sponsors/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            Sponsors
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/outreach/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            Outreach
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/camp/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            Camp
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/blog/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            Blog
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/members/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            Members
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/resources/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            Resources
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/support-us/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            Support Us
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/contact/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            Contact
+                        </div>
+                    </a>
+                </div>
+                
+
+                
+                <div style="flex: 40px 0 0; margin-left: 8px; display: flex; flex-direction: column; justify-content: center;">
+                    <a href="https://www.facebook.com/aluminumnarwhals">
+                        <img id="/%7B%7D/facebook" />
+                    </a>
+                </div>
+                
+                <div style="flex: 40px 0 0; margin-left: 8px; display: flex; flex-direction: column; justify-content: center;">
+                    <a href="https://github.com/Team3128">
+                        <img id="/%7B%7D/github" />
+                    </a>
+                </div>
+                
+                <div style="flex: 40px 0 0; margin-left: 8px; display: flex; flex-direction: column; justify-content: center;">
+                    <a href="https://www.instagram.com/3128aluminarwhals">
+                        <img id="/%7B%7D/instagram" />
+                    </a>
+                </div>
+                
+                <div style="flex: 40px 0 0; margin-left: 8px; display: flex; flex-direction: column; justify-content: center;">
+                    <a href="https://twitter.com/FRCTeam3128">
+                        <img id="/%7B%7D/twitter" />
+                    </a>
+                </div>
+                
+            </nav>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $("#navigation_dropdown").css("height", "0px");
+        });
+
+        $(window).resize(function() {
+            if ($("#normal_navigation").css("display") == "block") {
+                $("#navigation_dropdown").css("height", "0px");
+            }
+        })
+        
+        function togglemenu() {
+            var sdiv = $("#navigation_dropdown");
+            
+            if (sdiv.css("height") == "0px") {
+                sdiv.animate({height: $("#smallmenu").css("height")}, "fast");
+            }
+            else {
+                sdiv.animate({height: '0px'}, "fast");
+            }
+        }
+    </script>
+    
+    <div id="navigation_dropdown" style="height: 0px;">
+        <nav id="smallmenu" style="display: flex; flex-direction: column; align-items: stretch; width: 100%;">
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/about/" class="nounder">
+                    <div style="padding: 12px;">
+                        About
+                    </div>
+                </a>
+            </div>
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/sponsors/" class="nounder">
+                    <div style="padding: 12px;">
+                        Sponsors
+                    </div>
+                </a>
+            </div>
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/outreach/" class="nounder">
+                    <div style="padding: 12px;">
+                        Outreach
+                    </div>
+                </a>
+            </div>
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/camp/" class="nounder">
+                    <div style="padding: 12px;">
+                        Camp
+                    </div>
+                </a>
+            </div>
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/blog/" class="nounder">
+                    <div style="padding: 12px;">
+                        Blog
+                    </div>
+                </a>
+            </div>
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/members/" class="nounder">
+                    <div style="padding: 12px;">
+                        Members
+                    </div>
+                </a>
+            </div>
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/resources/" class="nounder">
+                    <div style="padding: 12px;">
+                        Resources
+                    </div>
+                </a>
+            </div>
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/support-us/" class="nounder">
+                    <div style="padding: 12px;">
+                        Support Us
+                    </div>
+                </a>
+            </div>
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/contact/" class="nounder">
+                    <div style="padding: 12px;">
+                        Contact
+                    </div>
+                </a>
+            </div>
+            
+
+            <div class="dropdown_social">
+                
+                <div class="icon">
+                    <a href="https://www.facebook.com/aluminumnarwhals">
+                        <img id="facebook" />
+                    </a>
+                </div>
+                
+                <div class="icon">
+                    <a href="https://github.com/Team3128">
+                        <img id="github" />
+                    </a>
+                </div>
+                
+                <div class="icon">
+                    <a href="https://www.instagram.com/3128aluminarwhals">
+                        <img id="instagram" />
+                    </a>
+                </div>
+                
+                <div class="icon">
+                    <a href="https://twitter.com/FRCTeam3128">
+                        <img id="twitter" />
+                    </a>
+                </div>
+                
+            </div>
+        </nav>
+    </div>
+</header>
+
+        
+        <div class="page-content">
+            <img id="pageimage" src="/%7B%7D/assets/page_headers/standard.jpeg" />
+
+
+<div>
+    <div id="page-header" class="page-heading" style="background: rgba(0,0,0,.55); width: 100%; position: relative; left: 0px;">
+        
+        <div class="wrapper" style="padding-left: 20px;">
+            Blog
+        </div>
+        
+    </div>
+</div>
+
+
+<div id="wrap" class="wrapper">
+  <article class="post">
+    <div style="z-index: 1; position: relative;">
+      <table cellpadding="20px" width="100%" style="background: white; table-layout: fixed;">
+          <tr cellpadding="0px" height="100%">
+            <td cellpadding="0px" height="100%">
+              <table style="background: grey; margin: -22px" cellspacing="15px">
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/build-season/2022/02/11/build-season-4.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">Feb 11, 2022 • Emma C.</span>
+        <span class="post-top">
+          <h4>2022 Build Season - Week 5</h4>
+        </span>
+        <span class="post-excerpt">
+          Salutations water-dwelling-horned mammals! WOOHOO, we are almost done with build season! The narwhals are pratically living in the workshop at this point, making final adjustments to our robot (name impending…). It’s been almost two weeks since our last update, so let’s check in with our departments! Business Business has turned...
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/build-season/2022/02/11/build-season-3.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">Feb 11, 2022 • Francesca P.</span>
+        <span class="post-top">
+          <h4>2022 Build Season - Week 3+4</h4>
+        </span>
+        <span class="post-excerpt">
+          Howdy funky fresh metal friends! Oh boy has it been a busy 2 weeks (hence the joint week 3 and 4 blog post). The robot is technically complete, quite the milestone if I do say so myself. Quite a lot has happened since our last update, so let’s see what...
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/build-season/2022/01/27/build-season-2.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">Jan 27, 2022 • Emma C.</span>
+        <span class="post-top">
+          <h4>2022 Build Season - Week 2</h4>
+        </span>
+        <span class="post-excerpt">
+          Hey y’all, Build Season is in full swing! Currently, we are finalizing designs and starting to manufacture. Without further ado, here’s a few words from each of our departments! Business As Build Season progresses, the Business Department has finished writing and designing the Kickoff Newsletter. New members have published it,...
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/build-season/2022/01/19/build-season-1.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">Jan 19, 2022 • Emma C.</span>
+        <span class="post-top">
+          <h4>2022 Build Season - Week 1</h4>
+        </span>
+        <span class="post-excerpt">
+          Hello friends! Here’s a little introduction about me. My name is Emma C. I am head of the Marketing department, and I am a member of the class of 2023. I will be doing weekly updates on what each department has done in the past week. Enough of introductions, let’s...
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/offseason/2021/02/08/season-recap.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">Feb 8, 2021 • Cynthia L.</span>
+        <span class="post-top">
+          <h4>2021 Season Recap</h4>
+        </span>
+        <span class="post-excerpt">
+          Salutations metallic monoceros! Welp, this is it. After a hectic spring break, everything has been submitted; the months of tirelessly working on the robot have paid off. Grogu has served us well, and now we await the judges results. With competition stuff done, we can finally move onto some less...
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/build-season/2021/02/08/week-4-update.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">Feb 8, 2021 • Cynthia L.</span>
+        <span class="post-top">
+          <h4>2021 Build Season Week 4</h4>
+        </span>
+        <span class="post-excerpt">
+          Greetings my fellow horned mammalian friends! With four weeks (well now five weeks since this post is a bit late) of build season already behind us, designs are being finalized, and the final robot is underway. Machines are whirring, CAD-ders be CAD-ing, and drive team is practicing, all in hopes...
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/build-season/2021/01/24/week-2-update.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">Jan 24, 2021 • Cynthia L.</span>
+        <span class="post-top">
+          <h4>2021 Build Season Week 2.5</h4>
+        </span>
+        <span class="post-excerpt">
+          Greetings, narwhals and friends! Happy second semester y’all! Hopefully, it’s treating you guys better than the first. Build season is rapidly going by, but the narwhals have been very hard at work for the past two weeks, prototyping and finalizing the design of the robot. There’s still a lot to...
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/build-season/2021/01/10/kickoff.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">Jan 10, 2021 • Cynthia L.</span>
+        <span class="post-top">
+          <h4>2021 Infinite Recharge at Home Kickoff</h4>
+        </span>
+        <span class="post-excerpt">
+          Greetings friends! Just as a quick introduction, my name is Cynthia L., and I am a part of the mechanical department. Yesterday, we welcomed 2021’s Infinite Recharge at Home! The Narwhals are back at it again to tackle a very strange build season, starting the day off with the FIRST...
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/preseason/2021/01/08/preseason-update.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">Jan 8, 2021 • Carolyn C.</span>
+        <span class="post-top">
+          <h4>2020-2021 Preseason Update</h4>
+        </span>
+        <span class="post-excerpt">
+          Salutations, friends! It’s time for our first (and last) preseason update of this year! I hope that the first few months of the school year has treated everyone well and that you’ve had a great holiday season and start to the new year. This post comes a bit later than...
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/competition-season/2020/03/12/san-diego-postponed.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">Mar 12, 2020 • Carolyn C.</span>
+        <span class="post-top">
+          <h4>San Diego Regional Update</h4>
+        </span>
+        <span class="post-excerpt">
+          Hi all! It is with great regret I inform y’all so early in the morning that the San Diego Regional (3/11-3/14) has been postponed to an unknown date. Due to the prevalence of coronavirus, it has been highly recommended by the state of California that all gatherings of 250+ individuals...
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/competition-season/2020/03/08/del-mar-3.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">Mar 8, 2020 • Carolyn C.</span>
+        <span class="post-top">
+          <h4>2020 Del Mar Regional — Day 3</h4>
+        </span>
+        <span class="post-excerpt">
+          With the end of Day 3, so concludes our first competition of the season! The Narwhals were ready to go this morning at 7:15, eager to rebound after a number of disappointing qualification matches on Day 2. As the last day of competition, qualifications would be wrapping up around noon...
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/competition-season/2020/03/07/del-mar-2.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">Mar 7, 2020 • Judith W.</span>
+        <span class="post-top">
+          <h4>2020 Del Mar Regional — Day 2</h4>
+        </span>
+        <span class="post-excerpt">
+          After a long day of practice matches, it was finally time for the first official competition day of Del Mar Regional! During practice matches yesterday, we ran into a multitude of problems, so our first priority this morning was to resolve those issues. Thankfully, the majority of our difficulties were...
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/competition-season/2020/03/06/del-mar-1.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">Mar 6, 2020 • Carolyn C.</span>
+        <span class="post-top">
+          <h4>2020 Del Mar Regional — Day 1</h4>
+        </span>
+        <span class="post-excerpt">
+          Our first regional has finally arrived! After two long months of working hard, the Narwhals were excited for Day 1 of Del Mar Regional on Mar. 6. It was the first time that we’d see our robot in action and on a totally foreign field. Most team members made their...
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/preseason/2019/11/21/preseason-update.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">Nov 21, 2019 • Carolyn C.</span>
+        <span class="post-top">
+          <h4>2019-2020 Preseason Update</h4>
+        </span>
+        <span class="post-excerpt">
+          Hey all! It’s a bit late, but we hope everyone has had a good start to their school year! We’re already more than halfway to build season… meaning it’s time for a preseason update! Below you’ll find what each division has been up to since the start of the school...
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/offseason/2019/04/27/recap.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">Apr 27, 2019 • Ronak R.</span>
+        <span class="post-top">
+          <h4>2019 Season Recap</h4>
+        </span>
+        <span class="post-excerpt">
+          On April 20th, 2019, the competition seasons of our team and 402 other teams competing at the FIRST Robotics Competition World Championships in Houston, Texas officially came to a close. We did it! Months of hard work, lost sleep, overwhelming excitement, and make-up assignments gave us our team’s best season...
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/build-season/2019/01/08/kickoff.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">Jan 8, 2019 • Chris L.</span>
+        <span class="post-top">
+          <h4>2019 DESTINATION: DEEP SPACE Kickoff</h4>
+        </span>
+        <span class="post-excerpt">
+          Hello friends of Team 3128! It’s finally here - Deep Space Kickoff, 7 AM PST. It’s going to be a challenge!! The Aluminum Narwhals met for waffles and coffee at O Dark Thirty at Canyon Crest to watch the live video feed from FIRST HQ in Manchester NH. As soon...
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/preseason/2017/11/18/preaseason-update.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">Nov 18, 2017 • Jessica X.</span>
+        <span class="post-top">
+          <h4>Preseason Update</h4>
+        </span>
+        <span class="post-excerpt">
+          Hello fellow Narwhals, This is Jessica and I am a member of the Business division. One of the projects I have been working on over the past couple weeks in addition to the sponsors, grants, and merchandise is starting a blog page for the team website. With the blog, I...
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/preseason/2017/08/10/narwhal-intro-2017.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">Aug 10, 2017 • Ronak R.</span>
+        <span class="post-top">
+          <h4>Join us for Narwhal Intro Day 2017!</h4>
+        </span>
+        <span class="post-excerpt">
+          Mark you calendars, because the school year is approaching quickly, and we are proud to announce this year’s Narwhal Intro Day! The first official FRC meeting of this year is Wednesday, September 6, 2017. On Narwhal Intro Day, new members will get a chance to be introduced to our team...
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/competition-season/2017/04/07/worlds.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">Apr 7, 2017 • Ronak R.</span>
+        <span class="post-top">
+          <h4>Catch us at the FIRST Championship in Houston!</h4>
+        </span>
+        <span class="post-excerpt">
+          With the final regionals wrapping up this week, we thought we’d update you on how we did this competition season. Our most recent regional was the Sacramento Regional, where we faced off with some of the best teams in the FIRST Robotics Competition. We entered the quarterfinals elimination matches pitted...
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/build-season/2017/02/22/build-season-6.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">Feb 22, 2017 • Raylen L.</span>
+        <span class="post-top">
+          <h4>2017 Build Season Update No. 6</h4>
+        </span>
+        <span class="post-excerpt">
+          Happy Competition Season fellow saltwater vertebrates! Welp, it’s over. At approximately 8:54 pm last night (2/21/17), our 2017 competition robot was ‘completed’, bagged, and tagged. It now remains encapsulated within, in essence, a multi-gallon ziploc bag until the San Diego Regional in exactly two weeks. As many of you already...
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/build-season/2017/02/12/build-season-5.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">Feb 12, 2017 • Caroline M.</span>
+        <span class="post-top">
+          <h4>2017 Build Season Update No. 5</h4>
+        </span>
+        <span class="post-excerpt">
+          Happy Sunday Narwhals! We have had quite the week, as many of you know. In one week we saw: the downfall of an intake, a broken CNC, and a struggle with the gear mechanism. Later in this email will be the mechanical update, accounting for all of these difficulties. We...
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/build-season/2017/02/05/build-season-4.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">Feb 5, 2017 • Raylen L.</span>
+        <span class="post-top">
+          <h4>2017 Build Season Update No. 4</h4>
+        </span>
+        <span class="post-excerpt">
+          Hey Narwhals! Hope second semester is treating everyone well! With week 4 over our shoulders, our robot is looking solid - 2 more weeks left (thank god, a few of us are practically living at CCA). A picture of the finalized CAD model and a video showing our current progress...
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/build-season/2017/01/29/build-season-3.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">Jan 29, 2017 • Caroline M.</span>
+        <span class="post-top">
+          <h4>2017 Build Season Update No. 3</h4>
+        </span>
+        <span class="post-excerpt">
+          Hello Narwhals! I hope everyone is having a fantastic Sunday, and taking a nice break after finals. Robotics was not particularly busy during Week 4, due to those pesky exams on Thursday and Friday. The robot design is really coming together, and the build team is soon to begin assembly...
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/build-season/2017/01/22/build-season-2.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">Jan 22, 2017 • Raylen L.</span>
+        <span class="post-top">
+          <h4>2017 Build Season Update No. 2</h4>
+        </span>
+        <span class="post-excerpt">
+          Greetings my aquatic mammals of action! With Week Two behind our tails and Week Three approaching over the ocean line, we’re well on our way to having a final design solidified. Designs for the climber, the shooter, and the gear mechanism are all solid and their respective prototypes are almost...
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/competition-season/2016/05/02/st-louis-5.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">May 2, 2016 • Louie Z.</span>
+        <span class="post-top">
+          <h4>2016 World Championships - Day 5</h4>
+        </span>
+        <span class="post-excerpt">
+          My name is Louie Z. and I am the lead scout on our travel team. My role is to ensure that we have adequate information on competing teams and synthesizing it into effective counterstrategies. As our trip has come to a close I would like to give a quick reflection...
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/competition-season/2016/05/01/st-louis-4.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">May 1, 2016 • Caroline M.</span>
+        <span class="post-top">
+          <h4>2016 World Championships - Day 4</h4>
+        </span>
+        <span class="post-excerpt">
+          My name is Caroline M. and I am the coach of the drive team over here at Team 3128. My job is to plan the strategy for each of our matches, and ensure the drivers understand and complete their task. Our Saturday morning consistented of leaving at 6:45, instead of...
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/competition-season/2016/04/30/st-louis-3.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">Apr 30, 2016 • Alex L. and Rory C.</span>
+        <span class="post-top">
+          <h4>2016 World Championships - Day 3</h4>
+        </span>
+        <span class="post-excerpt">
+          This is Alex L. and Rory C., and we are on our team’s scouting team. We are responsible for watching matches and recording what teams can do. Friday brought many challenges. The first of which was getting out of bed. For many of us this is the struggle of every...
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/competition-season/2016/04/29/st-louis-2.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">Apr 29, 2016 • Ronak R.</span>
+        <span class="post-top">
+          <h4>2016 World Championships - Day 2</h4>
+        </span>
+        <span class="post-excerpt">
+          Thursday marked the beginning of qualification matches, a series of competitors that would determine which teams would leave each division to compete in Einstein, the final battle for champion of FRC. The day began with pit crew rising early to finish off wiring and assembling the remainder of the robot....
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/competition-season/2016/04/28/st-louis-1.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">Apr 28, 2016 • Kiran R. and Orson W.</span>
+        <span class="post-top">
+          <h4>2016 World Championships - Day 1</h4>
+        </span>
+        <span class="post-excerpt">
+          Hello, it’s Kiran R. and Orson W. We are part of the mechanical/pit crew team. Our job is mainly to get our robot up and running and to make sure that everything is good. Today was mostly a travel day which most of us spent studying for our AP tests....
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/competition-season/2016/04/04/las-vegas-5.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">Apr 4, 2016 • Josh B.</span>
+        <span class="post-top">
+          <h4>2016 Las Vegas Regional - Day 5</h4>
+        </span>
+        <span class="post-excerpt">
+          Hello, I’m Joshua B., also part of the scouting team. We’ve spent the past three days at robotics. I’d like to give you a short summary of our experience. Starting Wednesday after school we set off on our six hour car journey. We stopped for a short while for dinner...
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/competition-season/2016/04/03/las-vegas-4.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">Apr 3, 2016 • Sam R.</span>
+        <span class="post-top">
+          <h4>2016 Las Vegas Regional - Day 4</h4>
+        </span>
+        <span class="post-excerpt">
+          Day Four (Saturday) was an emotional roller coaster! Luckily we all held on to see the whole thing through! Hi, I’m Sam R. and I am our team’s Human Player for this year. This means I am on the Drive Team, the fearsome four responsible for the actual control of...
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/competition-season/2016/04/02/las-vegas-3.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">Apr 2, 2016 • Daniel B.</span>
+        <span class="post-top">
+          <h4>2016 Las Vegas Regional - Day 3</h4>
+        </span>
+        <span class="post-excerpt">
+          Hello, my name is Daniel B. I am a part of the scouting team, a tight-knit, if sleep deprived, group. We gather data through watching the various matches and translate it into strategies. The first day of qualifiers is always the most intense for scouts. For most of the day,...
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/competition-season/2016/04/01/las-vegas-2.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">Apr 1, 2016 • Jannie Y. and Christian C.</span>
+        <span class="post-top">
+          <h4>2016 Las Vegas Regional - Day 2</h4>
+        </span>
+        <span class="post-excerpt">
+          Hey guys, it’s Jannie Y. and Christian C. We are part of the pit crew, the team that primarily fixes the robot whenever anything goes wrong. Everyone expected a calm, non-exciting day when we first unpacked and set up our pit, ready to have a fresh start on our regional....
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/competition-season/2016/03/31/las-vegas-1.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">Mar 31, 2016 • Sarah C.</span>
+        <span class="post-top">
+          <h4>2016 Las Vegas Regional - Arrival</h4>
+        </span>
+        <span class="post-excerpt">
+          Just as a quick introduction, my name is Sarah C. I joined the 3128 Aluminum Narwhals FRC regional and travel team this year. My experience so far has consisted of a car ride full of puns and excitement for the Vegas Regional competition ahead. I am looking forward to talking...
+        </span>
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td onClick="javascript:location.href='{}/website/2016/03/15/new-site.html'" class="indexpost hover_animate" width="33%">
+        <span class="post-meta">Mar 15, 2016 • Ronak R.</span>
+        <span class="post-top">
+          <h4>Welcome to Team 3128's New Website</h4>
+        </span>
+        <span class="post-excerpt">
+          Over the past couple of weeks, we have been (rather secretively) moving our website to a new platform. We are proud to announce that the transfer is finally complete! The website is up and running on a modern platform that makes our lives easier and allows us to put more...
+        </span>
+      </td>
+    </tr>
+  
+</table>
+<!--<a href="'{}/feed.xml'"><div style="margin-right: 0px; margin-left:0px; margin-top:39px; margin-bottom: -3px;" class="button hover_animate" align="center">Subscribe via RSS</div></a>-->
+
+            </td>
+          </tr>
+      </table>
+    </div>
+  </article>
+</div>
+
+
+<script>
+    $( '#page-header' ).ready(function(){
+        $('#wrap').css("margin-top", "-" + ($('#page-header').height() - 1 * $('#page-header').height() / 60) + "px");
+        $('#page-header').css("bottom", ($('#page-header').height() - 1 * $('#page-header').height() / 60) + "px");
+    });
+    
+    var width = $(window).width();
+    $(window).resize(function(){
+        if($(this).width() != width){
+            $('#wrap').css("margin-top", "-" + ($('#page-header').height() - 1 * $('#page-header').height() / 60) + "px");
+            $('#page-header').css("bottom", ($('#page-header').height() - 1 * $('#page-header').height() / 60) + "px");
+        }
+    });
+</script>
+        </div>
+        
+        <footer class="site-footer">
+  <div class="wrapper">
+	<h2 class="footer-heading">Team 3128: Aluminium Narwhals</h2>
+    	<div class="footer-col-wrapper">
+      		<div class="footer-col footer-col-1">
+        		<ul class="contact-list">
+          			<li><a class="footer-list-a" href="/about/">About</a></li>
+          			<li><a class="footer-list-a" href="/sponsors/">Sponsors</a></li>
+				<li><a class="footer-list-a" href="/camp/">Summer Camp</a></li>
+          			<li><a class="footer-list-a" href="/blog/">Blog</a></li>
+        		</ul>
+      		</div>
+      		<div class="footer-col footer-col-2">
+      			<ul class="contact-list">
+      			<li><a class="footer-list-a" href="/outreach/">Outreach</a></li>
+          		<li><a class="footer-list-a" href="/members/">Members</a></li>
+          		<li><a class="footer-list-a" href="/contact/">Contact</a></li>
+          	</ul>
+     			</div>
+      		<div align="right" class="footer-col footer-col-3">
+        		<p>Copyright © 2015-2021 Team 3128: Aluminum Narwhals</p>
+      		</div>
+    	</div>
+	</div>
+</footer>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-75161664-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    </body>
+</html>

@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>
+    
+      Team 3128: Aluminum Narwhals
+    
+  </title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js">
+  </script>
+
+  <link rel="shortcut icon" type="image/png" href="/%7B%7D/assets/graphics/favicon.png"/>
+  <link rel="icon" type="image/png" href="/%7B%7D/assets/graphics/favicon.png"/>
+
+  <meta name="description" content="Copyright © 2015-2021 Team 3128: Aluminum Narwhals">
+
+  <link rel="stylesheet" href="/%7B%7D/css/main.css">
+  <link rel="canonical" href="/">
+  <link rel="alternate" type="application/rss+xml" title="Team 3128: Aluminium Narwhals" href="/%7B%7D/feed.xml">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  
+  <!-- Google Analytics -->
+  
+  
+</head>
+
+
+    <body>
+        <header class="site-header">
+    <div style="display: flex; flex-direction: row; align-items: center; height: 70px; margin: 5px; padding: 0px 4px;">
+        <a href="{}/" style="flex: auto 1 0">
+            <img style="width: 90px; display: inline-block"  src="/%7B%7D/assets/header/logo.png" />
+            
+            <img style="height: 70px;" class="normaltitle" src="/%7B%7D/assets/header/wordmark.png" />
+            <img style="height: 70px;" class="smalltitle" src="/%7B%7D/assets/header/nummark.png" />
+        </a>
+        
+        <div onclick="togglemenu()" class="small_navigation_button hover_animate" style="width: 100%; text-align: center; margin: 0px 8px; font-size: 40px; color: white;">
+            ☰
+        </div>
+
+        <div id="normal_navigation" class="normal_navigation">
+            <nav class="site-nav" style="display: flex; flex-direction: row; justify-content: flex-end; align-items: stretch; margin-right: 12px; ">
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/about/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            About
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/sponsors/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            Sponsors
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/outreach/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            Outreach
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/camp/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            Camp
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/blog/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            Blog
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/members/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            Members
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/resources/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            Resources
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/support-us/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            Support Us
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/contact/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            Contact
+                        </div>
+                    </a>
+                </div>
+                
+
+                
+                <div style="flex: 40px 0 0; margin-left: 8px; display: flex; flex-direction: column; justify-content: center;">
+                    <a href="https://www.facebook.com/aluminumnarwhals">
+                        <img id="/%7B%7D/facebook" />
+                    </a>
+                </div>
+                
+                <div style="flex: 40px 0 0; margin-left: 8px; display: flex; flex-direction: column; justify-content: center;">
+                    <a href="https://github.com/Team3128">
+                        <img id="/%7B%7D/github" />
+                    </a>
+                </div>
+                
+                <div style="flex: 40px 0 0; margin-left: 8px; display: flex; flex-direction: column; justify-content: center;">
+                    <a href="https://www.instagram.com/3128aluminarwhals">
+                        <img id="/%7B%7D/instagram" />
+                    </a>
+                </div>
+                
+                <div style="flex: 40px 0 0; margin-left: 8px; display: flex; flex-direction: column; justify-content: center;">
+                    <a href="https://twitter.com/FRCTeam3128">
+                        <img id="/%7B%7D/twitter" />
+                    </a>
+                </div>
+                
+            </nav>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $("#navigation_dropdown").css("height", "0px");
+        });
+
+        $(window).resize(function() {
+            if ($("#normal_navigation").css("display") == "block") {
+                $("#navigation_dropdown").css("height", "0px");
+            }
+        })
+        
+        function togglemenu() {
+            var sdiv = $("#navigation_dropdown");
+            
+            if (sdiv.css("height") == "0px") {
+                sdiv.animate({height: $("#smallmenu").css("height")}, "fast");
+            }
+            else {
+                sdiv.animate({height: '0px'}, "fast");
+            }
+        }
+    </script>
+    
+    <div id="navigation_dropdown" style="height: 0px;">
+        <nav id="smallmenu" style="display: flex; flex-direction: column; align-items: stretch; width: 100%;">
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/about/" class="nounder">
+                    <div style="padding: 12px;">
+                        About
+                    </div>
+                </a>
+            </div>
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/sponsors/" class="nounder">
+                    <div style="padding: 12px;">
+                        Sponsors
+                    </div>
+                </a>
+            </div>
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/outreach/" class="nounder">
+                    <div style="padding: 12px;">
+                        Outreach
+                    </div>
+                </a>
+            </div>
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/camp/" class="nounder">
+                    <div style="padding: 12px;">
+                        Camp
+                    </div>
+                </a>
+            </div>
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/blog/" class="nounder">
+                    <div style="padding: 12px;">
+                        Blog
+                    </div>
+                </a>
+            </div>
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/members/" class="nounder">
+                    <div style="padding: 12px;">
+                        Members
+                    </div>
+                </a>
+            </div>
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/resources/" class="nounder">
+                    <div style="padding: 12px;">
+                        Resources
+                    </div>
+                </a>
+            </div>
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/support-us/" class="nounder">
+                    <div style="padding: 12px;">
+                        Support Us
+                    </div>
+                </a>
+            </div>
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/contact/" class="nounder">
+                    <div style="padding: 12px;">
+                        Contact
+                    </div>
+                </a>
+            </div>
+            
+
+            <div class="dropdown_social">
+                
+                <div class="icon">
+                    <a href="https://www.facebook.com/aluminumnarwhals">
+                        <img id="facebook" />
+                    </a>
+                </div>
+                
+                <div class="icon">
+                    <a href="https://github.com/Team3128">
+                        <img id="github" />
+                    </a>
+                </div>
+                
+                <div class="icon">
+                    <a href="https://www.instagram.com/3128aluminarwhals">
+                        <img id="instagram" />
+                    </a>
+                </div>
+                
+                <div class="icon">
+                    <a href="https://twitter.com/FRCTeam3128">
+                        <img id="twitter" />
+                    </a>
+                </div>
+                
+            </div>
+        </nav>
+    </div>
+</header>
+
+        
+        <div class="page-content">
+            <div class="homepagewrapper">
+  <div style="background: white" class="home">
+    <table class="carouselTable" cellspacing="0px" cellpadding="0px" width="100%">
+        <tr width="100%">
+            <td width="100%">
+                <div width="100%" style="overflow: hidden;">
+                    <div class="inlineblock">
+                        
+                        <div onClick="location.href='/%7B%7D/members/'" width="25%" class="card">
+                            <img class="imgCard" width="100%" src="/%7B%7D/assets/homepage/introday.jpg"></img>
+                            <div class="cardInfo">
+                                <table cellpadding="0px" width="100%" height="100%">
+                                    <tr height="100%">
+                                        <td style="padding-left: 15px; text-align: left" height="100%" width="40%">
+                                            <span style="text-align:center;display:inline-block;vertical-align: bottom;"><h2
+                                                    class="cardTitle">Join Team 3128!</h2></span>
+                                        </td>
+                                        <td style="padding-right: 15px; text-align: right" height="100%" width="60%">
+                                            <span class="cardInfoText"
+                                                  style="display:inline-block;vertical-align: bottom; font-size: 20px;">Interested in joining CCA's FRC robotics team? Visit the Members page for instructions on how to roster for the team!</span>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        
+                        <div onClick="location.href='/%7B%7D/camp/'" width="25%" class="card">
+                            <img class="imgCard" width="100%" src="/%7B%7D/assets/homepage/camp.jpeg"></img>
+                            <div class="cardInfo">
+                                <table cellpadding="0px" width="100%" height="100%">
+                                    <tr height="100%">
+                                        <td style="padding-left: 15px; text-align: left" height="100%" width="40%">
+                                            <span style="text-align:center;display:inline-block;vertical-align: bottom;"><h2
+                                                    class="cardTitle">Robotics Summer Camp</h2></span>
+                                        </td>
+                                        <td style="padding-right: 15px; text-align: right" height="100%" width="60%">
+                                            <span class="cardInfoText"
+                                                  style="display:inline-block;vertical-align: bottom; font-size: 20px;">After two years in the pandemic, we hope to bring back our summer camp next year!</span>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        
+                        <div onClick="location.href='/%7B%7D/support-us/'" width="25%" class="card">
+                            <img class="imgCard" width="100%" src="/%7B%7D/assets/homepage/dmrGroupPhoto.jpg"></img>
+                            <div class="cardInfo">
+                                <table cellpadding="0px" width="100%" height="100%">
+                                    <tr height="100%">
+                                        <td style="padding-left: 15px; text-align: left" height="100%" width="40%">
+                                            <span style="text-align:center;display:inline-block;vertical-align: bottom;"><h2
+                                                    class="cardTitle">Support Us!</h2></span>
+                                        </td>
+                                        <td style="padding-right: 15px; text-align: right" height="100%" width="60%">
+                                            <span class="cardInfoText"
+                                                  style="display:inline-block;vertical-align: bottom; font-size: 20px;">Be a part of creating an amazing STEM-based program for our students. Every company sponsorship and parent donation enables us to engage and inspire our students to pursue their passions in science, technology, engineering, and math.</span>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        
+                        <div onClick="location.href='/%7B%7D/outreach/'" width="25%" class="card">
+                            <img class="imgCard" width="100%" src="/%7B%7D/assets/homepage/outreach.jpeg"></img>
+                            <div class="cardInfo">
+                                <table cellpadding="0px" width="100%" height="100%">
+                                    <tr height="100%">
+                                        <td style="padding-left: 15px; text-align: left" height="100%" width="40%">
+                                            <span style="text-align:center;display:inline-block;vertical-align: bottom;"><h2
+                                                    class="cardTitle">Giving Back to the Community</h2></span>
+                                        </td>
+                                        <td style="padding-right: 15px; text-align: right" height="100%" width="60%">
+                                            <span class="cardInfoText"
+                                                  style="display:inline-block;vertical-align: bottom; font-size: 20px;">Our team may focus heavily on engineering, but there's a lot more to robotics than just robots. Check out some of the work we do to inspire others to pursue learning in STEM.</span>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <table id="tiny" cellpadding="0px" style="background: grey; color: black">
+        <tr cellpadding="0px">
+            <td cellpadding="0px">
+                <table width="100%">
+                    <tr width="100%">
+                        <td align="center">
+                            <div height="100%" width="100%">
+                                <h2 style="color: white;" id="center-text">Check out what's going on...</h2>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
+                <table cellpadding="15px" cellspacing="10px" width="100%">
+                    
+                    <tr>
+                        <td onClick="javascript:location.href='/members/'" class="indexpost hover_animate"
+                            width="33%" style="vertical-align: top; padding: 10px;" width="25%" height="100%">
+                            <div style="vertical-align: text-top;">
+                    <span style="text-align: center">
+                      <h4>Join Team 3128!</h4>
+                    </span>
+                                <img width="100%" class="small_card_image hover_animate" src="/assets/homepage/introday-full.png"/>
+                                <br>
+                                Interested in joining CCA's FRC robotics team? Visit the Members page for instructions on how to roster for the team!
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td onClick="javascript:location.href='/camp/'" class="indexpost hover_animate"
+                            width="33%" style="vertical-align: top; padding: 10px;" width="25%" height="100%">
+                            <div style="vertical-align: text-top;">
+                    <span style="text-align: center">
+                      <h4>Robotics Summer Camp</h4>
+                    </span>
+                                <img width="100%" class="small_card_image hover_animate" src="/assets/homepage/camp-full.jpeg"/>
+                                <br>
+                                After two years in the pandemic, we hope to bring back our summer camp next year!
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td onClick="javascript:location.href='/support-us/'" class="indexpost hover_animate"
+                            width="33%" style="vertical-align: top; padding: 10px;" width="25%" height="100%">
+                            <div style="vertical-align: text-top;">
+                    <span style="text-align: center">
+                      <h4>Support Us!</h4>
+                    </span>
+                                <img width="100%" class="small_card_image hover_animate" src="/assets/homepage/dmrGroupPhoto-full.jpg"/>
+                                <br>
+                                Be a part of creating an amazing STEM-based program for our students. Every company sponsorship and parent donation enables us to engage and inspire our students to pursue their passions in science, technology, engineering, and math.
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td onClick="javascript:location.href='/outreach/'" class="indexpost hover_animate"
+                            width="33%" style="vertical-align: top; padding: 10px;" width="25%" height="100%">
+                            <div style="vertical-align: text-top;">
+                    <span style="text-align: center">
+                      <h4>Giving Back to the Community</h4>
+                    </span>
+                                <img width="100%" class="small_card_image hover_animate" src="/assets/homepage/outreach-full.jpeg"/>
+                                <br>
+                                Our team may focus heavily on engineering, but there's a lot more to robotics than just robots. Check out some of the work we do to inspire others to pursue learning in STEM.
+                            </div>
+                        </td>
+                    </tr>
+                    
+                </table>
+
+            </td>
+        </tr>
+    </table>
+    <!-- <tr>
+      <td align="center" width="100%" style="padding: 10px;">
+        <h4><b>Want to be a part of Team 3128 for the 2021-2022 School Year?</b></h4>
+        <a href="https://www.team3128.org/members/"><div style="margin-top: 8px;" class="button hover_animate" align="center">REGISTRATION INFORMATION</div></a>
+      </td>
+    </tr> -->
+    <tr width="100%" style="background: #e6e6e6">
+        <td>
+            <table width="100%">
+                <tr width="100%">
+                    <td style="vertical-align: top; width: 80px;">
+                        <img src="/%7B%7D/assets/graphics/quote.png"
+                             style="margin-right: 10px; margin-left:10px; margin-top:10px; margin-bottom:35px; opacity: .35"></img>
+                    </td>
+                    <td style="vertical-align: top;">
+                        <h4 style="margin-right: 10px; margin-left:20px; margin-top:35px; margin-bottom:35px"><i>We
+                            strive to cultivate leadership and innovation through an engaging STEM education that
+                            embraces all students, regardless of background, in a vibrant and connected team
+                            culture.</i></h4>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+    <table style="table-layout:fixed" cellpadding="0px" cellspacing="0px" width="100%">
+        <tr width="100%" style="background: #e6e6e6">
+            <td align="center" width="100%" style="padding: 15px;">
+                <div width="100%">
+                    <h4>Team 3128 is a student-run, high-school robotics team from Canyon Crest Academy.</h4>
+                </div>
+                <a href="https://www.team3128.org/about/leaders/">
+                    <div style="margin-top: 8px;" class="button hover_animate" align="center">Meet our Team Leaders,
+                        Mentors, and Coaches
+                    </div>
+                </a>
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="100%" style="padding: 10px;">
+                <h4>Want to learn more about our team?</h4>
+                <a href="https://team3128.us17.list-manage.com/subscribe?u=7c13b1f47db9b4f3392eda9f2&id=4c89f7c84c">
+                    <div style="margin-top: 8px;" class="button hover_animate" align="center">Sign up for our community
+                        newsletter!
+                    </div>
+                </a>
+            </td>
+        </tr>
+
+        <table style="table-layout:fixed" cellpadding="0px" cellspacing="0px" width="100%">
+            <tr width="100%" style="background: #e6e6e6">
+                <td align="center" width="100%" style="padding: 15px;">
+                    <div width="100%">
+                        <h4>Want to help out?</h4>
+                    </div>
+                    <a href="https://www.team3128.org/support-us/">
+                        <div style="margin-top: 8px;" class="button hover_animate" align="center">Support Us!</div>
+                    </a>
+                </td>
+            </tr>
+
+            <tr width="100%" class="header_bar">
+                <td>
+                    <h1 class="header_bar">What We Do</h1>
+                </td>
+            </tr>
+
+            <tr width="100%">
+                <td>
+                    <table width="100%" cellpadding="10px">
+                        <tr width="100%">
+                            <td width="250px" class="whatwedo-image-large">
+                                <a href="http://www.firstinspires.org/robotics/frc"><img
+                                        src="/assets/homepage/frc.png"></img></a>
+                            </td>
+                            <td>
+                                <div class="whatwedo-image-small">
+                                    <a href="http://www.firstinspires.org/robotics/frc"><img
+                                            src="/assets/homepage/frc.png"></img></a>
+                                </div>
+                                <h2>FIRST Robotics Competiton</h2>
+                                Our team competes in the FIRST Robotics Competition, a program created by FIRST - For
+                                Recognition and Inspiration of Science and Technology. FIRST's founder Dean Kamen had
+                                two goals; one was to make robotics a competitive sport that drove students of all grade
+                                levels to strive to build and design amazing machines, but the other was to create a
+                                cooperative environment where innovation and creativity could thrive and students could
+                                become leaders in science and technology. The FIRST Robotics Competition was created for
+                                high school students to build 100-pound robots to form alliances and compete with teams
+                                from around the world.
+                                <br><br>
+                                <a href="http://www.firstinspires.org/robotics/frc">
+                                    <div class="button hover_animate" align="center">Learn more</div>
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr width="100%" style="background: #e6e6e6">
+                <td>
+                    <table width="100%" cellpadding="10px">
+                        <tr width="100%">
+                            <td>
+                                <div class="whatwedo-image-small">
+                                    <a href="/camp/"><img src="/assets/homepage/camp.png"></img></a>
+                                </div>
+
+                                <h2>Robotics Summer Camp</h2>
+                                Over the Summer, our robotics team runs a 3-week long camp for students grades 1-8. For
+                                one week, students get to design, build, program, and drive their very own robots. Our
+                                goal as a camp is to create an atmosphere for preteens and middle school students to
+                                become aware of and excited about science, technology, engineering and math. We want to
+                                provide a safe space where students can explore and become passionate about new subjects
+                                that they might desire to pursue in middle school, high school, and possibly throughout
+                                the rest of their lives.
+                                <br><br>
+                                <a href="/camp/">
+                                    <div class="button hover_animate" align="center">Learn more</div>
+                                </a>
+                            </td>
+                            <td width="250px" class="whatwedo-image-large">
+                                <a href="/camp/"><img src="/assets/homepage/camp.png"></img></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr width="100%">
+                <td>
+                    <table width="100%" cellpadding="10px">
+                        <tr width="100%">
+                            <td width="250px" class="whatwedo-image-large">
+                                <a href="https://drive.google.com/file/d/1eCF6W_rqSJrtXeeTQKeTbEUN7-NlHxFs/view?usp=sharing"><img
+                                        src="/assets/homepage/workshopmap.png"></img></a>
+                            </td>
+                            <td>
+                                <div class="whatwedo-image-small">
+                                    <a href="https://drive.google.com/file/d/1eCF6W_rqSJrtXeeTQKeTbEUN7-NlHxFs/view?usp=sharing"><img
+                                            src="/assets/homepage/workshopmap.png' | relative_url }}"></img></a>
+                                </div>
+                                <h2>Finding the workshop</h2>
+                                Our Workshop is located right under the Learning Commons. You can see where our workshop
+                                is on this map. There are two ways to get to our workshop:
+                                <br>
+                                1. <b>From the school:</b> Take the stairs between the B building and the Learning
+                                Commons towards the Admin Parking Lot. Our workshop is just past the Nest on the right
+                                side of the gate (the fenced-in area).<br>
+                                2. <b>From the Admin Parking Lot:</b> Our workshop can be accessed by entering the large
+                                concrete sidewalk just right of the Administration building. It is the fenced-in area.
+                                <br><br>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!--
+                  <tr width="100%" class="header_bar">
+                    <td>
+                      <h1 class="header_bar">Latest Updates</h1>
+                    </td>
+                  </tr>
+
+                  <tr style="background: grey">
+                    <td>
+
+                      <table class="normwidthupdate" style="table-layout:fixed" width="100%" cellspacing="15px" cellpadding="20px">
+                        <tr width="100%" height="150px">
+                          
+                            <td onClick="javascript:location.href='{}/build-season/2022/02/11/build-season-4.html'" class="indexpost hover_animate" style="width: 100%">
+                                  <div class="post-top">
+                                    <span class="post-meta">Feb 11, 2022 • Emma C.</span>
+                                    <h4>2022 Build Season - Week 5</h4>
+                                  </div>
+                                  <div class="post-excerpt">
+                                    Salutations water-dwelling-horned mammals! WOOHOO, we are almost done with build season! The narwhals are pratically living in the workshop at this point, making final adjustments to our robot (name impending…)....
+                                  </div>
+                            </td>
+                          
+                            <td onClick="javascript:location.href='{}/build-season/2022/02/11/build-season-3.html'" class="indexpost hover_animate" style="width: 100%">
+                                  <div class="post-top">
+                                    <span class="post-meta">Feb 11, 2022 • Francesca P.</span>
+                                    <h4>2022 Build Season - Week 3+4</h4>
+                                  </div>
+                                  <div class="post-excerpt">
+                                    Howdy funky fresh metal friends! Oh boy has it been a busy 2 weeks (hence the joint week 3 and 4 blog post). The robot is technically complete, quite the...
+                                  </div>
+                            </td>
+                          
+                            <td onClick="javascript:location.href='{}/build-season/2022/01/27/build-season-2.html'" class="indexpost hover_animate" style="width: 100%">
+                                  <div class="post-top">
+                                    <span class="post-meta">Jan 27, 2022 • Emma C.</span>
+                                    <h4>2022 Build Season - Week 2</h4>
+                                  </div>
+                                  <div class="post-excerpt">
+                                    Hey y’all, Build Season is in full swing! Currently, we are finalizing designs and starting to manufacture. Without further ado, here’s a few words from each of our departments! Business...
+                                  </div>
+                            </td>
+                          
+                        </tr>
+                        <tr width="100%">
+                          <td colspan="3" onClick="javascript:location.href='{}/blog/'" class="indexpost hover_animate" style="text-align: center;vertical-align: middle; padding: 10px;">
+                            <h4>See more...</h4>
+                          </td>
+                        </tr>
+                      </table>
+
+                      <table class="smallwidthupdate" style="table-layout:fixed" width="100%" cellspacing="15px">
+                        
+                          <tr width="100%">
+                            <td onClick="javascript:location.href='{}/build-season/2022/02/11/build-season-4.html'" class="indexpost hover_animate" width="33%">
+                              <div style="text-align: center">
+                                <span class="post-meta">Feb 11, 2022 • Emma C.</span>
+                                <h4>2022 Build Season - Week 5</h4>
+                              </div>
+                              Salutations water-dwelling-horned mammals! WOOHOO, we are almost done with build season! The narwhals are pratically living in the workshop at this point, making final adjustments to our robot (name impending…)....
+                            </td>
+                          </tr>
+                        
+                          <tr width="100%">
+                            <td onClick="javascript:location.href='{}/build-season/2022/02/11/build-season-3.html'" class="indexpost hover_animate" width="33%">
+                              <div style="text-align: center">
+                                <span class="post-meta">Feb 11, 2022 • Francesca P.</span>
+                                <h4>2022 Build Season - Week 3+4</h4>
+                              </div>
+                              Howdy funky fresh metal friends! Oh boy has it been a busy 2 weeks (hence the joint week 3 and 4 blog post). The robot is technically complete, quite the...
+                            </td>
+                          </tr>
+                        
+                          <tr width="100%">
+                            <td onClick="javascript:location.href='{}/build-season/2022/01/27/build-season-2.html'" class="indexpost hover_animate" width="33%">
+                              <div style="text-align: center">
+                                <span class="post-meta">Jan 27, 2022 • Emma C.</span>
+                                <h4>2022 Build Season - Week 2</h4>
+                              </div>
+                              Hey y’all, Build Season is in full swing! Currently, we are finalizing designs and starting to manufacture. Without further ado, here’s a few words from each of our departments! Business...
+                            </td>
+                          </tr>
+                        
+                          <tr width="100%">
+                            <td onClick="javascript:location.href='{}/build-season/2022/01/19/build-season-1.html'" class="indexpost hover_animate" width="33%">
+                              <div style="text-align: center">
+                                <span class="post-meta">Jan 19, 2022 • Emma C.</span>
+                                <h4>2022 Build Season - Week 1</h4>
+                              </div>
+                              Hello friends! Here’s a little introduction about me. My name is Emma C. I am head of the Marketing department, and I am a member of the class of 2023....
+                            </td>
+                          </tr>
+                        
+                        <tr width="100%">
+                          <td onClick="javascript:location.href='{}/blog/'" class="indexpost hover_animate" width="33%" style="text-align: center;vertical-align: middle; padding: 10px;">
+                            <h4>See more...</h4>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <a href="{}/feed.xml"> <div style="margin: 15px;" class="button hover_animate" align="center">Subscribe via RSS</div></a>
+                    </td> -->
+            </tr>
+        </table>
+</div> 
+<div>PJF </div>
+</div>
+        </div>
+        
+        <footer class="site-footer">
+  <div class="wrapper">
+	<h2 class="footer-heading">Team 3128: Aluminium Narwhals</h2>
+    	<div class="footer-col-wrapper">
+      		<div class="footer-col footer-col-1">
+        		<ul class="contact-list">
+          			<li><a class="footer-list-a" href="/about/">About</a></li>
+          			<li><a class="footer-list-a" href="/sponsors/">Sponsors</a></li>
+				<li><a class="footer-list-a" href="/camp/">Summer Camp</a></li>
+          			<li><a class="footer-list-a" href="/blog/">Blog</a></li>
+        		</ul>
+      		</div>
+      		<div class="footer-col footer-col-2">
+      			<ul class="contact-list">
+      			<li><a class="footer-list-a" href="/outreach/">Outreach</a></li>
+          		<li><a class="footer-list-a" href="/members/">Members</a></li>
+          		<li><a class="footer-list-a" href="/contact/">Contact</a></li>
+          	</ul>
+     			</div>
+      		<div align="right" class="footer-col footer-col-3">
+        		<p>Copyright © 2015-2021 Team 3128: Aluminum Narwhals</p>
+      		</div>
+    	</div>
+	</div>
+</footer>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-75161664-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    </body>
+</html>

@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>
+    
+      Team 3128: Our Robots
+    
+  </title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js">
+  </script>
+
+  <link rel="shortcut icon" type="image/png" href="/%7B%7D/assets/graphics/favicon.png"/>
+  <link rel="icon" type="image/png" href="/%7B%7D/assets/graphics/favicon.png"/>
+
+  <meta name="description" content="Copyright © 2015-2021 Team 3128: Aluminum Narwhals">
+
+  <link rel="stylesheet" href="/%7B%7D/css/main.css">
+  <link rel="canonical" href="/about/robots/">
+  <link rel="alternate" type="application/rss+xml" title="Team 3128: Aluminium Narwhals" href="/%7B%7D/feed.xml">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  
+  <!-- Google Analytics -->
+  
+  
+</head>
+
+
+    <body>
+        <header class="site-header">
+    <div style="display: flex; flex-direction: row; align-items: center; height: 70px; margin: 5px; padding: 0px 4px;">
+        <a href="{}/" style="flex: auto 1 0">
+            <img style="width: 90px; display: inline-block"  src="/%7B%7D/assets/header/logo.png" />
+            
+            <img style="height: 70px;" class="normaltitle" src="/%7B%7D/assets/header/wordmark.png" />
+            <img style="height: 70px;" class="smalltitle" src="/%7B%7D/assets/header/nummark.png" />
+        </a>
+        
+        <div onclick="togglemenu()" class="small_navigation_button hover_animate" style="width: 100%; text-align: center; margin: 0px 8px; font-size: 40px; color: white;">
+            ☰
+        </div>
+
+        <div id="normal_navigation" class="normal_navigation">
+            <nav class="site-nav" style="display: flex; flex-direction: row; justify-content: flex-end; align-items: stretch; margin-right: 12px; ">
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/about/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            About
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/sponsors/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            Sponsors
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/outreach/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            Outreach
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/camp/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            Camp
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/blog/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            Blog
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/members/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            Members
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/resources/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            Resources
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/support-us/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            Support Us
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu_button hover_animate">
+                    <a href="/%7B%7D/contact/" class="nounder page-link" style="height: 100%;">
+                        <div style="height: 100%; padding: 20px;">
+                            Contact
+                        </div>
+                    </a>
+                </div>
+                
+
+                
+                <div style="flex: 40px 0 0; margin-left: 8px; display: flex; flex-direction: column; justify-content: center;">
+                    <a href="https://www.facebook.com/aluminumnarwhals">
+                        <img id="/%7B%7D/facebook" />
+                    </a>
+                </div>
+                
+                <div style="flex: 40px 0 0; margin-left: 8px; display: flex; flex-direction: column; justify-content: center;">
+                    <a href="https://github.com/Team3128">
+                        <img id="/%7B%7D/github" />
+                    </a>
+                </div>
+                
+                <div style="flex: 40px 0 0; margin-left: 8px; display: flex; flex-direction: column; justify-content: center;">
+                    <a href="https://www.instagram.com/3128aluminarwhals">
+                        <img id="/%7B%7D/instagram" />
+                    </a>
+                </div>
+                
+                <div style="flex: 40px 0 0; margin-left: 8px; display: flex; flex-direction: column; justify-content: center;">
+                    <a href="https://twitter.com/FRCTeam3128">
+                        <img id="/%7B%7D/twitter" />
+                    </a>
+                </div>
+                
+            </nav>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $("#navigation_dropdown").css("height", "0px");
+        });
+
+        $(window).resize(function() {
+            if ($("#normal_navigation").css("display") == "block") {
+                $("#navigation_dropdown").css("height", "0px");
+            }
+        })
+        
+        function togglemenu() {
+            var sdiv = $("#navigation_dropdown");
+            
+            if (sdiv.css("height") == "0px") {
+                sdiv.animate({height: $("#smallmenu").css("height")}, "fast");
+            }
+            else {
+                sdiv.animate({height: '0px'}, "fast");
+            }
+        }
+    </script>
+    
+    <div id="navigation_dropdown" style="height: 0px;">
+        <nav id="smallmenu" style="display: flex; flex-direction: column; align-items: stretch; width: 100%;">
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/about/" class="nounder">
+                    <div style="padding: 12px;">
+                        About
+                    </div>
+                </a>
+            </div>
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/sponsors/" class="nounder">
+                    <div style="padding: 12px;">
+                        Sponsors
+                    </div>
+                </a>
+            </div>
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/outreach/" class="nounder">
+                    <div style="padding: 12px;">
+                        Outreach
+                    </div>
+                </a>
+            </div>
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/camp/" class="nounder">
+                    <div style="padding: 12px;">
+                        Camp
+                    </div>
+                </a>
+            </div>
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/blog/" class="nounder">
+                    <div style="padding: 12px;">
+                        Blog
+                    </div>
+                </a>
+            </div>
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/members/" class="nounder">
+                    <div style="padding: 12px;">
+                        Members
+                    </div>
+                </a>
+            </div>
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/resources/" class="nounder">
+                    <div style="padding: 12px;">
+                        Resources
+                    </div>
+                </a>
+            </div>
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/support-us/" class="nounder">
+                    <div style="padding: 12px;">
+                        Support Us
+                    </div>
+                </a>
+            </div>
+            
+            <div class="dropdown_element hover_animate">
+                <a href="/contact/" class="nounder">
+                    <div style="padding: 12px;">
+                        Contact
+                    </div>
+                </a>
+            </div>
+            
+
+            <div class="dropdown_social">
+                
+                <div class="icon">
+                    <a href="https://www.facebook.com/aluminumnarwhals">
+                        <img id="facebook" />
+                    </a>
+                </div>
+                
+                <div class="icon">
+                    <a href="https://github.com/Team3128">
+                        <img id="github" />
+                    </a>
+                </div>
+                
+                <div class="icon">
+                    <a href="https://www.instagram.com/3128aluminarwhals">
+                        <img id="instagram" />
+                    </a>
+                </div>
+                
+                <div class="icon">
+                    <a href="https://twitter.com/FRCTeam3128">
+                        <img id="twitter" />
+                    </a>
+                </div>
+                
+            </div>
+        </nav>
+    </div>
+</header>
+
+        
+        <div class="page-content">
+            <img id="pageimage" src="/%7B%7D/assets/page_headers/standard.jpeg" />
+
+
+<div>
+    <div id="page-header" class="page-heading" style="background: rgba(0,0,0,.55); width: 100%; position: relative; left: 0px;">
+        
+        <div class="subpage_wrapper" style="padding-left: 20px;">
+            About: Our Robots
+        </div>
+        
+    </div>
+</div>
+
+
+<div id="wrap" class="subpage_wrapper">
+    <article class="post">
+        <script>            
+            function togglesubmenu() {
+                var sdiv = $("#subpage_dropdown");
+                
+                if (sdiv.css("height") == "0px") {
+                    sdiv.animate({height: $("#subpage_dropdown_contents").css("height")}, "fast");
+                }
+                else {
+                    sdiv.animate({height: '0px'}, "fast");
+                }
+            }
+        </script>
+
+        <div class="subpage_main">
+            <div class="sidebar">
+                
+                    
+                        <a href="{}/about/">
+                            <div class="element hover_animate ">
+                                Our Team
+                            </div>
+                        </a>
+                    
+                        <a href="{}/about/accomplishments/">
+                            <div class="element hover_animate ">
+                                Our Accomplishments
+                            </div>
+                        </a>
+                    
+                        <a href="{}/about/robots/">
+                            <div class="element hover_animate  selected ">
+                                Our Robots
+                            </div>
+                        </a>
+                    
+                        <a href="{}/about/departments/">
+                            <div class="element hover_animate ">
+                                Our Departments
+                            </div>
+                        </a>
+                    
+                        <a href="{}/about/leaders/">
+                            <div class="element hover_animate ">
+                                Our Leaders
+                            </div>
+                        </a>
+                    
+                        <a href="{}/about/mentors/">
+                            <div class="element hover_animate ">
+                                Our Mentors
+                            </div>
+                        </a>
+                    
+                        <a href="{}/about/projectleads/">
+                            <div class="element hover_animate ">
+                                Our Project Leads
+                            </div>
+                        </a>
+                    
+                        <a href="{}/outreach/">
+                            <div class="element hover_animate ">
+                                Outreach
+                            </div>
+                        </a>
+                    
+                        <a href="{}/about/first/">
+                            <div class="element hover_animate ">
+                                FIRST
+                            </div>
+                        </a>
+                    
+                        <a href="{}/about/website/">
+                            <div class="element hover_animate ">
+                                Our Website
+                            </div>
+                        </a>
+                    
+                
+            </div>
+
+            <div class="content">
+                <div class="subpage_dropdown">
+                    <div id="subpage_dropdown_button" class="hover_animate menu_button" onclick="togglesubmenu()">
+                        ☰
+                    </div>
+    
+                    <div id="subpage_dropdown" class="menu" style="height: 0px;">
+                        <div id="subpage_dropdown_contents">
+                            
+                                
+                                    <a href="{}/about/">
+                                        <div class="element hover_animate " >
+                                            Our Team
+                                        </div>
+                                    </a>
+                                
+                                    <a href="{}/about/accomplishments/">
+                                        <div class="element hover_animate " >
+                                            Our Accomplishments
+                                        </div>
+                                    </a>
+                                
+                                    <a href="{}/about/robots/">
+                                        <div class="element hover_animate  selected " >
+                                            Our Robots
+                                        </div>
+                                    </a>
+                                
+                                    <a href="{}/about/departments/">
+                                        <div class="element hover_animate " >
+                                            Our Departments
+                                        </div>
+                                    </a>
+                                
+                                    <a href="{}/about/leaders/">
+                                        <div class="element hover_animate " >
+                                            Our Leaders
+                                        </div>
+                                    </a>
+                                
+                                    <a href="{}/about/mentors/">
+                                        <div class="element hover_animate " >
+                                            Our Mentors
+                                        </div>
+                                    </a>
+                                
+                                    <a href="{}/about/projectleads/">
+                                        <div class="element hover_animate " >
+                                            Our Project Leads
+                                        </div>
+                                    </a>
+                                
+                                    <a href="{}/outreach/">
+                                        <div class="element hover_animate " >
+                                            Outreach
+                                        </div>
+                                    </a>
+                                
+                                    <a href="{}/about/first/">
+                                        <div class="element hover_animate " >
+                                            FIRST
+                                        </div>
+                                    </a>
+                                
+                                    <a href="{}/about/website/">
+                                        <div class="element hover_animate " >
+                                            Our Website
+                                        </div>
+                                    </a>
+                                
+                            
+                        </div>
+                    </div>
+    
+                    <div class="border"></div>
+                </div>
+
+                <table class="full_table alternating" cellspacing="0px">
+  
+    <tr width="100%">
+      <td style="text-align: left; vertical-align: top; padding: 15px">
+        <img width="35%" style="float: left; margin-right: 10px; margin-bottom: 0px;" src="/assets/page_photos/about/robots/2021.png" />
+        <h3>"Grogu"</h3>
+        <a href=" http://www.firstinspires.org/resource-library/frc/archived-game-documentation "><h4>2021 - INFINITE RECHARGE AT HOME</h4></a>
+        
+          <b>Dimensions: </b>24.24” x 28.125” x 34.384”
+          <br>
+          <b>Weight: </b>
+          <br>
+          <b>Top Speed: </b>
+          <br>
+        
+
+        Coming soon...
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td style="text-align: left; vertical-align: top; padding: 15px">
+        <img width="35%" style="float: left; margin-right: 10px; margin-bottom: 0px;" src="/assets/page_photos/about/robots/2020.png" />
+        <h3>"Cheems the Harvester of Souls"</h3>
+        <a href=" http://www.firstinspires.org/resource-library/frc/competition-manual-qa-system "><h4>2020 - INFINITE RECHARGE</h4></a>
+        
+          <b>Dimensions: </b>25" W x 28" L x 44.7" H
+          <br>
+          <b>Weight: </b>110 lbs
+          <br>
+          <b>Top Speed: </b>10.9 mph
+          <br>
+        
+
+        Cheems is a transforming arm bot comprising a high-speed four Falcon 500 drivetrain with a shooter at the end of the large arm driven by two Falcon 500s. This year we decided to make a bot that could drive under the control panel and also shoot over tall bots. Cheems had a hopper and Power Cell manipulator that would work at any arm angle. Cheems also fashioned a passively deployed polycarbonate intake with two bumper-wide rollers, which passed balls to Cheems' indexer, allowing for the Power Cells to be organized into a single-file line and traverse to the shooter. Finally, our climb mechanism. Our climb was able to deploy in a split second because we had constant force springs on the climber so that when the arm went past a certain angle the climber ends would hit a hard stop and rapidly deploy. Then it would winch itself up using two BAG motors. Though Cheems only had the opportunity to perform at Del Mar Regional, we are very proud of the work we put in and have learned greatly from this season.
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td style="text-align: left; vertical-align: top; padding: 15px">
+        <img width="35%" style="float: left; margin-right: 10px; margin-bottom: 0px;" src="/assets/page_photos/about/robots/2019.png" />
+        <h3>"Gromit"</h3>
+        <a href=" http://www.firstinspires.org/resource-library/frc/archived-game-documentation "><h4>2019 - DESTINATION: DEEP SPACE</h4></a>
+        
+          <b>Dimensions: </b>28" W x 32" L x 48" H
+          <br>
+          <b>Weight: </b>119.8 lbs
+          <br>
+          <b>Top Speed: </b>10.5 mph
+          <br>
+        
+
+        Gromit has an extremely reliable and robust two stage continuous elevator, fashioning a virtual four bar linkage as the inner carriage on which both the cargo intake and the hatch panel intake are integrated. The polycarbonate cargo intake consists of wide top and bottom rollers allowing Gromit to secure cargo upon contact. The polycarbonate hatch intake consists of a pin-and-slot swiveling finger with a pusher tab allowing for hatch pickup and dropoff at unforgiving angles and horizontal displacements. The reverse 2 CIM gearboxes situated in the rear feature integrated “heely” wheels that come into contact with the ground when the robot tips backwards, allowing for control during the climbing sequence which utilizes two large pistons in the front and a rack and pinion system in the back. Gromit ranked 1st seed alliance at Monterey Bay Regional and advanced to become, for the first time in team history, an Alliance Captain at the FRC World Championship in Houston.
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td style="text-align: left; vertical-align: top; padding: 15px">
+        <img width="35%" style="float: left; margin-right: 10px; margin-bottom: 0px;" src="/assets/page_photos/about/robots/2018.png" />
+        <h3>"Guido"</h3>
+        <a href=" http://www.firstinspires.org/resource-library/frc/archived-game-documentation "><h4>2018 - FIRST POWER UP</h4></a>
+        
+          <b>Dimensions: </b>33" W x 28" L x 54" H
+          <br>
+          <b>Weight: </b>119.7 lbs
+          <br>
+          <b>Top Speed: </b>9.5 mph
+          <br>
+        
+
+        Coming right out of kickoff, we decided to prioritize power cube scoring performance at the Exchange Zone, Switch, and Scale. Guido has an extremely reliable and robust two stage cascade elevator on which both the power cube intake and the climbing mechanism were integrated. Guido also fashioned an active-captive roller power cube intake utilizing both dynamic and static Colson wheels to capture and secure cubes. The elevators featured pistons that could extend shoulder bolts to catch onto a plate and lock the entire elevator once we had reached a full climb. This allowed us to deploy our "buddy bar" at the rear of the bot on which other robots could hang from. Guido proved a formidable machine, advancing our team to become the Finalist Alliance Captain at the San Diego Regional, securing a spot at the FRC World Championship in Houston. In Houston, we proceeded to play in Finals matches with the first seed alliance in the Newton Division, marking the furthest our team has advanced as a result of robot performance.
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td style="text-align: left; vertical-align: top; padding: 15px">
+        <img width="35%" style="float: left; margin-right: 10px; margin-bottom: 0px;" src="/assets/page_photos/about/robots/2017.png" />
+        <h3>"Ferb"</h3>
+        <a href=" http://www.firstinspires.org/resource-library/frc/archived-game-documentation "><h4>2017 - FIRST STEAMWORKS</h4></a>
+        
+          <b>Dimensions: </b>34.5" W x 31.25" L x 24" H
+          <br>
+          <b>Weight: </b>95 lbs
+          <br>
+          <b>Top Speed: </b>9.5 mph
+          <br>
+        
+
+        With our 2017 robot, we wanted to build a robot that excelled at the key elements of the game. Throughout numerous revisions and designs, we settled on Ferb. Ferb had a reliable scaling mechansim that efficently and effectively hooked on to the rope and scaled in just under 5 seconds. Ferb also sported an active gear mechanism that allowed for gear intake from both the loading zone and the ground, allowing us to ensure that all gears that ended up by the airship made it on. Ferb was sturdy and reliable and ended up allowing our team to become the Finalist Alliance Captain at the San Diego Regional, securing our spot at the FRC World Championship in Houston.
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td style="text-align: left; vertical-align: top; padding: 15px">
+        <img width="35%" style="float: left; margin-right: 10px; margin-bottom: 0px;" src="/assets/page_photos/about/robots/2016.png" />
+        <h3>"Kiera Knightly"</h3>
+        <a href=" http://www.firstinspires.org/resource-library/frc/archived-game-documentation "><h4>2016 - FIRST STRONGHOLD</h4></a>
+        
+
+        In order to remain competitive in the 2016 game, we designed a robot that would be fast and efficient at crossing defenses and scoring in the low goal. Topping off at 10 mph, Kiera Knightly excelled at crossing defenses and scoring for our alliance. Aditionally, Knightly was designed to withstand extreme collisions, being a sturdy machine that weighed just under 100 pounds.
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td style="text-align: left; vertical-align: top; padding: 15px">
+        <img width="35%" style="float: left; margin-right: 10px; margin-bottom: 0px;" src="/assets/page_photos/about/robots/2015.png" />
+        <h3>"The Claw"</h3>
+        <a href=" http://www.firstinspires.org/resource-library/frc/archived-game-documentation "><h4>2015 - RECYCLE RUSH</h4></a>
+        
+
+        Our robot this year was a versatile machine with a really, really large claw. It moved quickly and was able to move and stackt he trash cans with ease. The Claw also had a state of the art autonomous, which dealt with trash cans with ease.
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td style="text-align: left; vertical-align: top; padding: 15px">
+        <img width="35%" style="float: left; margin-right: 10px; margin-bottom: 0px;" src="/assets/page_photos/about/robots/2014.png" />
+        <h3>"Sebasitian"</h3>
+        <a href=" http://www.firstinspires.org/resource-library/frc/archived-game-documentation "><h4>2014 - AERIAL ASSIST</h4></a>
+        
+
+        This robot was our most impressive yet. With a high-powered three-wheeled swerve drive and a circular base, this robot drove circles around its opponents. Due to the lack of straight edges, it was literally impossible to pin against the wall. Sebastian won us the Xerox Creativity Award at the San Diego Regional.
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td style="text-align: left; vertical-align: top; padding: 15px">
+        <img width="35%" style="float: left; margin-right: 10px; margin-bottom: 0px;" src="/assets/page_photos/about/robots/2012.png" />
+        <h3>"Asimov"</h3>
+        <a href=" http://www.firstinspires.org/resource-library/frc/archived-game-documentation "><h4>2012 - REBOUND RUMBLE</h4></a>
+        
+
+        In honor of the great science fiction writer Isaac Asimov, we named our robot the Asimov. One unique feature of Asimov was its pneumatic catapult which allowed us to consistently hit our target while angled extremely high. This way, there was no interference with other basketballs in the air. Aditionally, our robot outmaneuvered other robots with a swerve drive system and picked balls off the ground in order to keep our robot scoring throughout the entire match.
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td style="text-align: left; vertical-align: top; padding: 15px">
+        <img width="35%" style="float: left; margin-right: 10px; margin-bottom: 0px;" src="/assets/page_photos/about/robots/2011.png" />
+        <h3>"U.M.A.R"</h3>
+        <a href=" http://www.firstinspires.org/resource-library/frc/archived-game-documentation "><h4>2011 - LOGO MOTION</h4></a>
+        
+
+        One of the key features that place our robot above the competition was our robots modular electronics box designed to be easily removed from the robot to make electronic repairs easier and more streamlined. Our goals for the Ultra Mega Awesome Robot were to score on all three levels, swiftly deploy a mini bot to the pole during the end game, outmaneuver the competition using our Mecanum wheels, and lift tubes off the ground that have been thrown by our human player.
+      </td>
+    </tr>
+  
+    <tr width="100%">
+      <td style="text-align: left; vertical-align: top; padding: 15px">
+        <img width="35%" style="float: left; margin-right: 10px; margin-bottom: 0px;" src="/assets/page_photos/about/robots/2010.png" />
+        <h3>"Fezzik"</h3>
+        <a href=" http://www.firstinspires.org/resource-library/frc/archived-game-documentation "><h4>2010 - BREAKAWAY</h4></a>
+        
+
+        As our first robot, we wanted to make a four-wheel arcade drive robot that could elevate itself from the tower bar with a scissor lift, elevate two other robots at the same time, lift 500 pounds on each of the side wings, and move in all possible ways during both teleop and autonomous. It is able to push soccuer balls with its bumpers, withstand impacts, and make itself upright after falling over.
+      </td>
+    </tr>
+  
+</table>
+
+            </div>
+        </div>
+    </article>
+</div>
+
+<script>
+    $( '#page-header' ).ready(function(){
+        $('#wrap').css("margin-top", "-" + ($('#page-header').height() - 1 * $('#page-header').height() / 60) + "px");
+        $('#page-header').css("bottom", ($('#page-header').height() - 1 * $('#page-header').height() / 60) + "px");
+    });
+    
+    var width = $(window).width();
+    $(window).resize(function(){
+        if($(this).width() != width){
+            $('#wrap').css("margin-top", "-" + ($('#page-header').height() - 1 * $('#page-header').height() / 60) + "px");
+            $('#page-header').css("bottom", ($('#page-header').height() - 1 * $('#page-header').height() / 60) + "px");
+        }
+    });
+</script>
+        </div>
+        
+        <footer class="site-footer">
+  <div class="wrapper">
+	<h2 class="footer-heading">Team 3128: Aluminium Narwhals</h2>
+    	<div class="footer-col-wrapper">
+      		<div class="footer-col footer-col-1">
+        		<ul class="contact-list">
+          			<li><a class="footer-list-a" href="/about/">About</a></li>
+          			<li><a class="footer-list-a" href="/sponsors/">Sponsors</a></li>
+				<li><a class="footer-list-a" href="/camp/">Summer Camp</a></li>
+          			<li><a class="footer-list-a" href="/blog/">Blog</a></li>
+        		</ul>
+      		</div>
+      		<div class="footer-col footer-col-2">
+      			<ul class="contact-list">
+      			<li><a class="footer-list-a" href="/outreach/">Outreach</a></li>
+          		<li><a class="footer-list-a" href="/members/">Members</a></li>
+          		<li><a class="footer-list-a" href="/contact/">Contact</a></li>
+          	</ul>
+     			</div>
+      		<div align="right" class="footer-col footer-col-3">
+        		<p>Copyright © 2015-2021 Team 3128: Aluminum Narwhals</p>
+      		</div>
+    	</div>
+	</div>
+</footer>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-75161664-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    </body>
+</html>

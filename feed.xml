@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Team 3128: Aluminium Narwhals</title>
+    <description>Copyright © 2015-2021 Team 3128: Aluminum Narwhals</description>
+    <link>http://team3128.org{}/</link>
+    <atom:link href="http://team3128.org{}/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 26 Mar 2022 06:15:09 -0700</pubDate>
+    <lastBuildDate>Sat, 26 Mar 2022 06:15:09 -0700</lastBuildDate>
+    <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>2022 Build Season - Week 5</title>
+        <description>&lt;p&gt;Salutations water-dwelling-horned mammals!
+&lt;br /&gt;
+WOOHOO, we are almost done with build season! The narwhals are pratically living in the workshop at this point, making final adjustments to our robot (name impending…). It’s been almost two weeks since our last update, so let’s check in with our departments!
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Business&lt;/strong&gt;
+&lt;br /&gt;
+Business has turned to awards writing this past week after finishing with some grants and newsletters. The Woodie Flowers Finalist Award was submitted this week, and members have worked hard to finish it. Both veterans and new members have completed the draft of the Entrepreneurship Award, and we will be moving on to editing next week as the first regional competition approaches.
+&lt;br /&gt;- Jessica L.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Controls&lt;/strong&gt;
+&lt;br /&gt;
+Controls is busy putting the final touches on the competition robot. We spent some more time wiring and organizing wires in the robot this past week. We have also further tested more subsystems on the robot; the intake, hopper, shooter, and climber have all been tested to some extent. Finally, we have been able to test some of our autonomous routines.
+&lt;br /&gt;- Jude L.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Strategy&lt;/strong&gt;
+&lt;br /&gt;
+We have finished our game simulations and taught members from other departments about pit scouting guidelines at competition. We are now working on pre scouting teams at upcoming competitions.
+&lt;br /&gt;- Shrey G.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mechanical&lt;/strong&gt;
+&lt;br /&gt;
+In week 5, Mechanical worked on finishing touches for the robot, and improvements that will be added later in the season. Our climber was rebuilt to be sturdier and more reliable. We also are working on making an adjustable hood shooter that will be added to the robot sometime after PHR and a hopper gate that will allow the robot to hold two balls more easily. We’ve begun work on our design for the pit this year, which should make us more productive and organized and productive at competitions.
+&lt;br /&gt;- Will S.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Marketing&lt;/strong&gt;
+&lt;br /&gt;
+For Week 5 of  build season, Marketing has finalized the base meal plan for the Port Hueneme regional. We have also continued making buttons with the help of some peeps from other departments. We are continuing to do Senior Spotlight to honor all of our seniors who will sadly be leaving us this year.
+&lt;br /&gt;- Emma C.
+&lt;br /&gt;
+&lt;br /&gt;
+Welp, that’s all for this update. We are so excited to be participating in Port Hueneme Regionals in less than two weeks! Bye for now!
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;BLARG!!!&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 11 Feb 2022 03:00:00 -0800</pubDate>
+        <link>http://team3128.org{}/build-season/2022/02/11/build-season-4.html</link>
+        <guid isPermaLink="true">http://team3128.org{}/build-season/2022/02/11/build-season-4.html</guid>
+        
+        
+        <category>build-season</category>
+        
+      </item>
+    
+      <item>
+        <title>2022 Build Season - Week 3+4</title>
+        <description>&lt;p&gt;Howdy funky fresh metal friends!
+&lt;br /&gt;
+Oh boy has it been a busy 2 weeks (hence the joint week 3 and 4 blog post). The robot is technically complete, quite the milestone if I do say so myself. Quite a lot has happened since our last update, so let’s see what our departments have been up to in the past two weeks.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Business&lt;/strong&gt;
+&lt;br /&gt;
+As Build Season continues, the Business Department has progressed with grants and begun Awards writing. Both veterans and new members have completed two reports necessary for the Sony Grant and have submitted the grant last week. Business is also working on awards for the season. Members are drafting the Entrepreneurship Award, which demonstrates our team’s comprehensive business plan for sustainability.
+&lt;br /&gt;- Jessica L.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Controls&lt;/strong&gt;
+&lt;br /&gt;
+Controls has been busy with all sorts of things these past two weeks. We created and tuned a custom pipeline for tracking cargo on the field, which will be helpful for the drive team when implemented with the competition robot. More recently, we have been at work wiring the entire competition robot, and testing the different subsystems as they are mechanically integrated. Finally, we have been doing some interpolation on the shooter to relate distance and RPM
+&lt;br /&gt;- Jude L.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Strategy&lt;/strong&gt;
+&lt;br /&gt;
+After completing our game simulations and reflecting on them to better understand Rapid React strategies, we dedicated more effort to preparing for competition by developing our pitscouting system further. We have developed questions and a form for pit scouting and have practiced with different departments on our team.
+&lt;br /&gt;- Shrey G.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mechanical&lt;/strong&gt;
+&lt;br /&gt;
+After we finished our complete design, Mechanical shifted to manufacturing and assembling the robot. The majority of the robot was machined in week 3 and assembled in week 4. Once the robot was mostly assembled, we handed it over to controls for wiring. The climber was assembled at the end of week 4, and is the only subsystem that hasn’t been integrated with the robot. Going into week 5 we will finish integration of all subsystems with the robot and continue working on robot improvements. Currently, we plan to add a gate to control when balls can exit the hopper and enter the shooter, and a shooter with an adjustable hood angle.
+&lt;br /&gt;- Will S.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Marketing&lt;/strong&gt;
+&lt;br /&gt;
+For week 3 and 4 of build season, Marketing has officially ordered the team T-shirts and have designed the buttons and begun the process of making buttons. In addition, we have created the meal plan for the Port Hueneme Regional. The team avatar is finished with sponsor banner quotes. Finally, Senior Spotlights are going well along with our new TikTok account @3128aluminumnarwhals.
+&lt;br /&gt;- Emma C.
+&lt;br /&gt;
+&lt;br /&gt;
+We still have a lot to do before Port Hueneme, so au revoir for now! 
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;blarg.&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 11 Feb 2022 03:00:00 -0800</pubDate>
+        <link>http://team3128.org{}/build-season/2022/02/11/build-season-3.html</link>
+        <guid isPermaLink="true">http://team3128.org{}/build-season/2022/02/11/build-season-3.html</guid>
+        
+        
+        <category>build-season</category>
+        
+      </item>
+    
+      <item>
+        <title>2022 Build Season - Week 2</title>
+        <description>&lt;p&gt;Hey y’all,&lt;/p&gt;
+
+&lt;p&gt;Build Season is in full swing! Currently, we are finalizing designs and starting to manufacture. Without further ado, here’s a few words from each of our departments!
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Business&lt;/strong&gt;
+&lt;br /&gt;
+As Build Season progresses, the Business Department has finished writing and designing the Kickoff Newsletter. New members have published it, summarizing each departments’ achievements and activities on Kickoff Day, and sent it to our sponsors. Both veterans and new members have been working on the Sony Grant to finish up two reports needed by the grant and to gather documents necessary for submission. Beyond newsletters and grants, Business is beginning to work on awards for the season. In the following weeks, both veterans and new members will turn their attention to begin drafting for the Entrepreneurship Award.
+&lt;br /&gt;- Jessica L.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Controls&lt;/strong&gt;
+&lt;br /&gt;
+Controls has been busy developing code for this year’s robot! We have code set up to test on the competition robot once the mechanical department finishes manufacturing. We have also further worked on autonomous cargo tracking capability on our robot. Autonomous programs are in pretty good shape as well. Finally, we have begun to wire the competition robot as parts of it finish manufacturing.
+&lt;br /&gt;- Jude L.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Strategy&lt;/strong&gt;
+&lt;br /&gt;
+We have continued working on our analysis of the game by looking into game simulations and preparing scouting systems for competition. Last weekend, we did our human game, which is a way we simulate the game at full scale, using people as robots! We have also begun our paper game simulation. For scouting, we have finished developing the first draft of our escouting application. We are also developing a framework for pitscouting at competiton.
+&lt;br /&gt;- Shrey G.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mechanical&lt;/strong&gt;
+&lt;br /&gt;
+All subsystems are finished and demonstrated working prototypes. The robot drivetrain finished assembly, and was handed off to controls for wiring. With the prototypes done, mechanical mostly spent the week making final designs in CAD. We updated the sketches made last week to exact 2d versions of the final robot. Using these sketches as a base, we made the robot in 3d. After each subsystem was made, they had to work together to integrate these systems into a full robot. We were able to spot many issues with colliding parts and design issues in the CAD, and resolved it. Going into week 3, we now have an almost complete design with only a few parts missing. That will allow us to begin our most intense phase of manufacturing shortly.
+&lt;br /&gt;- Will S.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Marketing&lt;/strong&gt;
+&lt;br /&gt;
+This week Marketing finalized the Narplane logo for the Rapid React themed team T-shirts. In addition, we confirmed the contract with team Paradox at SDA for the buses to the Port Hueneme regional. We have also started a new project of Senior Spotlight that highlights the hard work and achievements of each senior on Team 3128. Finally, the sponsor banner design is almost done and is planned to be ordered this weekend along with buttons!
+&lt;br /&gt;- Emma C.
+&lt;br /&gt;
+&lt;br /&gt;
+Well that’s all for this week! Stay tuned for more build season updates!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 27 Jan 2022 03:00:00 -0800</pubDate>
+        <link>http://team3128.org{}/build-season/2022/01/27/build-season-2.html</link>
+        <guid isPermaLink="true">http://team3128.org{}/build-season/2022/01/27/build-season-2.html</guid>
+        
+        
+        <category>build-season</category>
+        
+      </item>
+    
+      <item>
+        <title>2022 Build Season - Week 1</title>
+        <description>&lt;p&gt;Hello friends!
+Here’s a little introduction about me. My name is Emma C. I am head of the Marketing department, and I am a member of the class of 2023. I will be doing weekly updates on what each department has done in the past week. Enough of introductions, let’s get into robotics!! 
+We are onto our second week of build season with the new game Rapid React that is sponsored by Boeing with a theme of transportation. All departments have been very busy strategizing and prototyping for the new game and robot. Here is an update on each of the departments:
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Business&lt;/strong&gt;
+&lt;br /&gt;
+In the past week, the Business Department has continued working on newsletters and writing grants that have opened up this month. New members have published the Offseason Newsletter and sent it to our sponsors, as well as interviewed members for the Kickoff Newsletter. In addition to submitting the Brain Corp Grant, both veterans and new members have been working diligently to edit and finalize the Sony Grant as we prepare to submit it in the following days.
+&lt;br /&gt;- Jessica L.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Controls&lt;/strong&gt;
+&lt;br /&gt;
+This past week, controls has been hard at work prototyping and experimenting with autonomous and computer-vision-related affairs. After watching the kickoff stream and understanding the game for the year, we got to work prototyping the subsystems with the mechanical department. As more final, motor-controlled prototypes were fabricated, we used our testbench in order to run motors and gauge the effectiveness of the prototype. Additionally, with the auto priority list from strategy, we started planning out some of our autos and testing them on a different drivetrain. Finally, we have been experimenting with the new vision target for this year and using a custom pipeline to track the cargo balls.
+&lt;br /&gt;- Jude L.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Strategy&lt;/strong&gt;
+&lt;br /&gt;
+On the day of kickoff, we started by making a Kahoot to make sure the entire team understood this year’s game, then we made a priority list that explained which robot capabilities were most important to focus on this year and presented it to Mech. We also made an auto priority list describing the most important auto plants this year and presented it to controls. Then, we worked on analyzing the game. We thought about what robots we might see at competition and how we might work with them. This, along with general tips for strategy and drivers was included in our driver-guide. We also worked on adjusting our e-scouting system and database to this game. We also worked on an updated pit scouting system for competition.
+&lt;br /&gt;- Shrey G.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mechanical&lt;/strong&gt;
+&lt;br /&gt;
+The majority of mechanics have been spending the week prototyping. Starting at kickoff, mech members read the rulebook and came up with overall sketches for what the robot would look like. After the department agreed on what the broad subsystems would be from these rough sketches (drivetrain, intake, hopper, shooter, climber), we made cardboard mockups of what different versions of these systems could look like. From there, we narrowed down our concepts to one or two per subsystem and made more functional prototypes. The rest of the week, we iterated on these prototypes, bringing them closer to their final form. In the last couple of days, we also roughed out what the robot will look like in CAD (called Crayola CAD). This rough draft allows us to finalize the size of the robot, and move forward with final designs. Alongside the prototype, we also assembled the chassis kit we received from FIRST, and made bumpers for it.
+&lt;br /&gt;- Will S.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Marketing&lt;/strong&gt;
+&lt;br /&gt;
+The marketing department has been working on the new T-shirt design based on the theme of the game this year of transportation. We have many designs in the running but a Narplane looks like it is the team favorite. We have also been working with Chris L. on the travel logistics of Port Hueneme including buses and food options/menus. This week we secured our order of narwhal lanyards, which should come before the first regional. In addition to lanyards, we have begun sewing training for making narwhal horns for judges and fans at regionals. This coming week our main goal is to finalize the logo for the T-shirt and order them in time for the regional Port Hueneme.
+&lt;br /&gt;- Emma C.
+&lt;br /&gt;
+&lt;br /&gt;
+So far, our departments have been working hard to get a head start on this year’s build season. We are ecstatic to play the new Rapid React game and look forward to improving the robot. That’s all for now, &lt;strong&gt;Go Narwhals!&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 19 Jan 2022 03:00:00 -0800</pubDate>
+        <link>http://team3128.org{}/build-season/2022/01/19/build-season-1.html</link>
+        <guid isPermaLink="true">http://team3128.org{}/build-season/2022/01/19/build-season-1.html</guid>
+        
+        
+        <category>build-season</category>
+        
+      </item>
+    
+      <item>
+        <title>2021 Season Recap</title>
+        <description>&lt;p&gt;Salutations metallic monoceros!&lt;/p&gt;
+
+&lt;p&gt;Welp, this is it. After a hectic spring break, everything has been submitted; the months of tirelessly working on the robot have paid off. Grogu has served us well, and now we await the judges results. With competition stuff done, we can finally move onto some less stressful projects!&lt;/p&gt;
+
+&lt;p&gt;It’s been quite a while since the last blog update, so here’s what our departments have been up to for the past few months:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mechanical&lt;/strong&gt;
+&lt;br /&gt;
+Over the past [few] weeks, Mechanical has finally finished construction on the robot! Since then we have handed it off to Controls for wiring and testing, while we are basically standing by to fix anything that might (and inevitably will) break. Since then, our full attention has been devoted to Narwhal Connections, which is a program of articles, videos, and projects which are intended for elementary and middle schoolers to get interested in STEM. In the future we will continue working on these lessons while also working on some smaller, less technical projects in the workshop to improve our design and CAD skills.
+&lt;br /&gt;- Aaron B.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Controls&lt;/strong&gt;
+&lt;br /&gt;
+The controls department has been busy with robotic this past month, despite the altered build season due to COVID-19. Throughout March, we fully programmed, wired and tested the base functionality of our Infinite Recharge at home robot, Grogu. We split into two pods this year to reduce contact and risk of exposure; one pod worked on wiring and programming the mechanisms of the robot, while the other pod worked on making and tuning autonomous programs.
+The first pod got access to the robot at the beginning of the month, and immediately started working to wire up all of the different mechanisms as mechanical finished them up: the drivetrain, intake, serializer, hopper, and shooter. The wiring on this year’s robot is mostly on the bottom of the belly pan, which helps to reduce clutter, and make the robot look neater and aesthetically cleaner. After the robot was fully wired, we developed code for each mechanism on the robot; most of these were fairly straightforward to program, as they were similar to those on last years robot, Cheems: the drive train, intake, the serializer and the shooter on Grogu were particularly akin to those used on Cheems. The biggest difference was the hopper, which was much simpler to program due to it having rollers on both sides that moved the balls evenly. We did some of this programming over google meet in order to engage members who could not come into the workshop. Testing and troubleshooting each mechanism was the hardest part, as there were inevitable gaps in our logic and functionality that we missed, but these were all inevitably resolved following a number of debugging sessions. Tuning the parameters that controlled the shooter flywheel speed was also a difficulty, but in the end we discovered a workflow that greatly expedited the process. Overall, the mechanism pod has made great progress getting the robot to a fully operational state.
+The other pod, focusing on autonomous programs, used advanced method of autonomous control on this robot. We used a trajectory generator combined with an extended Kalman Filter (EKF) in order to have precise control of our robot that minimized error from sources like drift and friction. The base autonomous programs were written within a few weeks during preseason, utilizing the Kalman Filter we developed to provide location data WPILib’s Ramsete Controller method; after this, tuning the program parameters was the challenge. We initially determined the proper parameters to work on our practice robot, Monarch, early in March, but could not start tuning them on Grogu until the robot was fully ready. As a result, these parameters were tuned and filmed in tandem with drive team, as they worked on filming their own videos for the at home challenges, during the last three weeks of build season. The autonomous pod has been very productive, and has worked to develop a set of autonomous programs for this year’s challenges at a degree of sophistication never before attempted by the team.
+&lt;br /&gt;- Mason H.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Strategy&lt;/strong&gt;
+&lt;br /&gt;
+Strategy has just submitted our game last, last week! We made last minute changes and &lt;del&gt;double checked&lt;/del&gt; triple checked our submissions before we turned it in live with Chris Low at 2pm Wednesday March 3rd. Now, we are working on preparing for the conference call interview with the judges that will take place between March 15th at April 11th . In addition, we are closely working with mech to 3d print our Field and game elements to that we can use for demonstrations during the interview.
+&lt;br /&gt;- Yash V.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Business&lt;/strong&gt;
+&lt;br /&gt;
+Business has worked hard over the last few weeks to complete all our deadlines on time. Our game design video group finished editing the video and sent it to the Strategy department for review. Meanwhile, other Business members have been working on the essay quesions on the Nissan grant. Progress on the grant has been going good and we expect to have it submitted by next week.
+&lt;br /&gt;- Kevin Z.&lt;/p&gt;
+
+&lt;p&gt;What Team 3128 has been able to accomplish during these unprecedented times is truly astounding. We were able to return the the workshop safely and effectively communicate between on and off-campus members. This year, we have proved that we are unstoppable: not even a global pandemic can stop us!&lt;/p&gt;
+
+&lt;p&gt;Thank you so much to our team presidents, Christopher and Carolyn, and to our mentors and leaders for preventing Aluminium Narwhals from descending into total chaos, and of course, to every member on the team: we thank you for your contributions! We also could not have accomplished such a feat without each of our five departments, whether it be collecting funds for our team, managing our public presensc, or working on the robot itself.&lt;/p&gt;
+
+&lt;p&gt;Now, we must patiently (and painstakingly) await for results. We wish everyone the best of luck as the judges decide our fate, and hopefully, by next season, we can leave the pandemic behind :)&lt;/p&gt;
+
+&lt;p&gt;For more updates, you can check out our Instagram page at &lt;a href=&quot;https://instagram.com/3128aluminarwhals&quot;&gt;@3128aluminarwhals&lt;/a&gt;!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 08 Feb 2021 03:00:00 -0800</pubDate>
+        <link>http://team3128.org{}/offseason/2021/02/08/season-recap.html</link>
+        <guid isPermaLink="true">http://team3128.org{}/offseason/2021/02/08/season-recap.html</guid>
+        
+        
+        <category>offseason</category>
+        
+      </item>
+    
+      <item>
+        <title>2021 Build Season Week 4</title>
+        <description>&lt;p&gt;Greetings my fellow horned mammalian friends!&lt;/p&gt;
+
+&lt;p&gt;With four weeks (well now five weeks since this post is a bit late) of build season already behind us, designs are being finalized, and the final robot is underway. Machines are whirring, CAD-ders be CAD-ing, and drive team is practicing, all in hopes that we can do much better than last year (rip Cheems). Anyways, here are some updates from our departments:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mechanical&lt;/strong&gt;
+&lt;br /&gt;
+Over the past couple of weeks, mechanical has been finalizing the robot’s design. As the CAD model gets finalized, the people in the workshop are kicking manufacturing into high gear. Although we have had some major setbacks regarding our CNC Router, we have been able to overcome them with only a minimal setback. As everyone at home wraps up design, they will transition into designing our curriculum for Narwhal Connections over the next few months.
+&lt;br /&gt;- Aaron B.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://photos.smugmug.com/photos/i-6rMz385/0/X2/i-6rMz385-X2.png&quot; class=&quot;leftimage&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Controls&lt;/strong&gt;
+&lt;br /&gt;
+Over the last few weeks, Controls has started going into the workshop more often to wire up, test code on, and otherwise work with physical robots. We were able to get a small drivetrain prebot functional, providing a platform on which we were able to test some of the big code changes we had made over the past several months.
+In order to improve the robot’s ability to control itself autonomously, we have also been researching and implementing code that allows us to plot paths and trajectories on the field for the robot to follow–initial proof-of-concept tests have been completed using the prebot. Now, we need to expand our autonomous capability, then actually start programming the paths we need the robot to follow for competition.
+Additionally, Drive Team has also been using the prebot to begin some preliminary practice, and Controls has been helping to provide technical support and optimize constants and code as the drivers continue to test the limits of the prebot’s teleoperated capability.
+We plan to start working on wiring the competition robot in the coming weeks, and programming it not long thereafter–we’re looking forward to seeing all of this work come to fruition in the form of a completed robot!
+&lt;br /&gt;- Mason H.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://photos.smugmug.com/photos/i-2z3wRQ8/0/X5/i-2z3wRQ8-X5.jpg&quot; class=&quot;leftimage&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Business&lt;/strong&gt;
+&lt;br /&gt;
+Last week, the Business department finished writing and designing the Offseason Newsletter. New members published the article, which details our team’s accomplishments during that period, to our team’s sponsors. Business is now focused on writing the Nissan grant and developing an entrepreneur curriculum.
+&lt;br /&gt;- Kevin Z.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://photos.smugmug.com/photos/i-7kbsX3r/0/X2/i-7kbsX3r-X2.jpg&quot; class=&quot;rightimage&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Strategy&lt;/strong&gt;
+&lt;br /&gt;
+The game manual sub-group has completed the first draft of the game manual and plan to finalize the game manual and begin drafting responses to the prompts required for submission. They plan to get the final draft of the game manual and first drafts of the responses done for next Friday’s meetings. Meanwhile, the CAD group has made significant progress designing the microwave phone box and the other scoring elements and plan to put them together on the complete field and finish a polished first draft by next Friday as well.
+&lt;br /&gt;- Yash V.&lt;/p&gt;
+
+&lt;p&gt;Welp, that’s all for this week. Hopefully, all continues to go well!&lt;/p&gt;
+
+&lt;p&gt;For more updates, you can check out our Instagram page at &lt;a href=&quot;https://instagram.com/3128aluminarwhals&quot;&gt;@3128aluminarwhals&lt;/a&gt;!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 08 Feb 2021 03:00:00 -0800</pubDate>
+        <link>http://team3128.org{}/build-season/2021/02/08/week-4-update.html</link>
+        <guid isPermaLink="true">http://team3128.org{}/build-season/2021/02/08/week-4-update.html</guid>
+        
+        
+        <category>build-season</category>
+        
+      </item>
+    
+      <item>
+        <title>2021 Build Season Week 2.5</title>
+        <description>&lt;p&gt;Greetings, narwhals and friends!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://photos.smugmug.com/photos/i-fJCLTjH/0/X3/i-fJCLTjH-X3.jpg&quot; class=&quot;leftimage&quot; /&gt;
+Happy second semester y’all! Hopefully, it’s treating you guys better than the first. Build season is rapidly going by, but the narwhals have been very hard at work for the past two weeks, prototyping and finalizing the design of the robot. There’s still a lot to do, but great progress is being made.
+&lt;br /&gt;
+&lt;img src=&quot;https://photos.smugmug.com/photos/i-bXnb5tD/0/X3/i-bXnb5tD-X3.png&quot; class=&quot;rightimage&quot; /&gt;
+Undoubtedly, there has been a couple mishaps, but they have been resolved with the power of crayons and some helpful team members. 
+Without further ado, here’s what our departments have been up to for the past two weeks:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Marketing&lt;/strong&gt;
+&lt;br /&gt;
+As build season progresses, marketing has been hard at work to design new merchandise for the team. We hope to release it soon and look forward for what lies ahead.
+&lt;br /&gt;- Francesca P.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://photos.smugmug.com/photos/i-c9XkFt7/0/X3/i-c9XkFt7-X3.png&quot; class=&quot;leftimage&quot; /&gt;
+&lt;strong&gt;Mechanical&lt;/strong&gt;
+&lt;br /&gt;
+Over the past two weeks, Mech has been hard at work both inside the workshop and at home. The department has been split up into smaller groups responsible for specific parts of the robot, and each group has used the past few weeks to design, build, test, and evaluate their prototypes before they can move onto their (hopefully) final iteration. We have encountered some setbacks in the form of alignment problems in both the laser and one of our 3D printers as well as communication issues between people inside and outside of the workshop, but we were able to overcome them through greater use of our project management tools and through the general perseverance of everyone involved. Right now, we are starting to finish up prototype testing, manufacture the drivetrain, and fix a practice robot for Drive Team to train with.
+&lt;br /&gt;-Aaron B.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://photos.smugmug.com/photos/i-hZ6TST6/0/X3/i-hZ6TST6-X3.jpg&quot; class=&quot;leftimage&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Strategy&lt;/strong&gt;
+&lt;br /&gt;
+The Strategy department mainly focused on the game design challenge and now, we have a solid design of our game. We are currently working towards designing a theme for our game as we work with Business and Marketing. In addition to game design, Strategy is expanding it’s project line up to give our more coding inclined members the option to contribute to the department and the team through projects like our E-scouting project and Database project
+&lt;br /&gt;-Yash V.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Business&lt;/strong&gt;
+&lt;br /&gt;
+In the past two weeks, the Business department has directed its attention towards grant writing and working on the first newsletter of the 2020-2021 season. Veterans have been drafting, editing and finalizing the Sempra Energy Grant, which is projected to be submitted in the next coming weeks. Meanwhile, new members have been making good progress on the offseason newsletter and expecting to publish it soon. Business has also worked closely with Strategy on this year’s game design challenge.
+&lt;br /&gt;-Kevin Z.&lt;/p&gt;
+
+&lt;p&gt;That’s all the updates we have for now. Keep up the good work narwhals!&lt;/p&gt;
+
+&lt;p&gt;For more updates, you can check out our Instagram page at &lt;a href=&quot;https://instagram.com/3128aluminarwhals&quot;&gt;@3128aluminarwhals&lt;/a&gt;!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 24 Jan 2021 03:00:00 -0800</pubDate>
+        <link>http://team3128.org{}/build-season/2021/01/24/week-2-update.html</link>
+        <guid isPermaLink="true">http://team3128.org{}/build-season/2021/01/24/week-2-update.html</guid>
+        
+        
+        <category>build-season</category>
+        
+      </item>
+    
+      <item>
+        <title>2021 Infinite Recharge at Home Kickoff</title>
+        <description>&lt;p&gt;Greetings friends!&lt;/p&gt;
+
+&lt;p&gt;Just as a quick introduction, my name is Cynthia L., and I am a part of the mechanical department. Yesterday, we welcomed 2021’s Infinite Recharge at Home! The Narwhals are back at it again to tackle a very strange build season, starting the day off with the FIRST Twitch stream, impatiently waiting for the password to unlock the secrets within game manual. After absorbing all of the content, the rest of the day was filled with discussions, Kahoots, and other wonderful things. Here’s a quick recap of what a few of our departments have been up to!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mechanical&lt;/strong&gt;
+&lt;br /&gt;
+Today, the Mechanical Department determined the overall course we wanted the robot to take, and split up into sub-system groups. Those groups then roughed out an idea for how their sub-system will function.  The groups also created designs of prototypes to test their new ideas, to be built and experimented with over the coming week. The whole department then met to coordinate on how to unify these mechanisms into a cohesive whole. 
+&lt;br /&gt;- Will S.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Controls&lt;/strong&gt;
+&lt;br /&gt;
+Today we ran through all of the changes and updates that were made by the Scheduler, Command, and Subsystem groups went over, concatenated them into a single branch, and merged that into a new branch on the team 2021 repository. We also tested out how to update the actual WPILib installation and libraries to the latest version and got it working for the most part.
+&lt;br /&gt;- Mason H.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Strategy&lt;/strong&gt;
+&lt;br /&gt;
+Today at Kickoff, Strat…quickly read the Infinite Recharge at Home game manual and created a [K]ahoot to test the team on the just dropped game manual! After lunch, Strat reconvened in our breakout rooms to discuss our direction for build season. We decided to put all our focus on the Game Design Challenge this year and so, we worked on the game design activities to gain insight into designing our game.
+&lt;br /&gt;- Yash V.&lt;/p&gt;
+
+&lt;p&gt;That’s all the news we have regarding Kickoff! We wish you all a swell build season, and we can’t wait to see what the next few months will bring!&lt;/p&gt;
+
+&lt;p&gt;For more updates, you can check out our Instagram page at &lt;a href=&quot;https://instagram.com3128aluminarwhals&quot;&gt;@3128aluminarwhals&lt;/a&gt;!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 10 Jan 2021 03:00:00 -0800</pubDate>
+        <link>http://team3128.org{}/build-season/2021/01/10/kickoff.html</link>
+        <guid isPermaLink="true">http://team3128.org{}/build-season/2021/01/10/kickoff.html</guid>
+        
+        
+        <category>build-season</category>
+        
+      </item>
+    
+      <item>
+        <title>2020-2021 Preseason Update</title>
+        <description>&lt;p&gt;Salutations, friends!&lt;/p&gt;
+
+&lt;p&gt;It’s time for our first (and last) preseason update of this year! I hope that the first few months of the school year has treated everyone well and that you’ve had a great holiday season and start to the new year. This post comes a bit later than usual–after all, tomorrow is Kickoff! But we’ve been busy restructuring and reorganising how things work, especially with the pandemic still ongoing.&lt;/p&gt;
+
+&lt;p&gt;But preseason has been in full swing, and our departments have been adjusting well to a mostly online format! Though we started off the year completely virtually, we’ve been permitted to re-enter the workshop (with many safety precautions in place, of course). Here’s an inside look at what each department has been up to!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Business&lt;/strong&gt;
+&lt;br /&gt;
+During the off-season, the Business department was challenged by the change to a virtual format; however, every member performed admirably, finding innovative solutions to adjust to and overcome obstacles. In just a few months, new members learned the basics of formal presentation, communication, and professional writing. Veteran members, meanwhile, have largely concentrated their efforts on writing and sending out grant requests to organizations such as Google, Qualcomm, and Viasat. As the 2020 year came to an end, the Business department ultimately raised $10,000 through grants, an impressive joint effort from all our remarkable members.
+&lt;br /&gt;- Kevin Z.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Controls&lt;/strong&gt;
+&lt;br /&gt;
+These past few months, we have been busy with training new members and working on some offseason projects virtually. We’ve made our way through the basic programming and Control Theory parts of the curriculum, and are currently working on teaching the structure of our robot’s codebase. We have also worked on several advanced projects on the side, updating our codebase to the new WPILib 2020 update, and exploring field localization and advanced estimation and control. Overall, we feel confident about this new virtual environment, and we’re excited to see the progress we will make after kickoff and the start of build season!
+&lt;br /&gt;- Jude L. and Mason H.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Marketing&lt;/strong&gt;
+&lt;br /&gt;
+As Marketing had a hiatus on sewing and button making, preseason was focused on social media communications, graphic design, and merchandise. Recently, marketing members have made a return to the workshop to start sewing and get members more involved; in the latest trip to the workshop, we made lots of narwhal plushies and pins. Come build season, we’ll be focusing on more frequent social media updates and creating a new shirt/pin design.
+&lt;br /&gt;- Francesca P. and Carolyn C.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mechanical&lt;/strong&gt;
+&lt;br /&gt;
+Mechanical has been conducting many online lectures for our new members, mainly focusing on training for CAD, CAM, and Slicer. We have recently been given access to the workshop, allowing us to clean up, maintain the machines, and get ready to build the next robot in January. Along with training, new members were given small projects to practice the skills taught in the lectures. Finally, to prepare for the build season, we hold meetings every Monday to design our robot by drawing ideas from last year’s robot.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Strategy&lt;/strong&gt;
+&lt;br /&gt;
+This preseason, the Strategy department has focused on rebuilding the department’s structure by giving veteran members the opportunity to start their own projects. New members are able to work 1-on-1 with veterans in this environment. Our veterans are exploring new perspectives in our game design project and new ways of analyzing our real-time competition data via our robot redesign project. By far, the main accomplishment of Strategy is teaching our new members the essential skills to turn analyzed information into game strategies. Despite working together solely online, we got the chance to meet new freshmen and closely include them in our team through our bonding events.
+&lt;br /&gt;- Yash V.&lt;/p&gt;
+
+&lt;p&gt;That’s all for now! Our next update will be on Kickoff, and as you all know, tomorrow is the big day. We’re super excited to see what the new season will bring!&lt;/p&gt;
+
+&lt;p&gt;For more updates, you can check out our Instagram page at &lt;a href=&quot;https://instagram.com3128aluminarwhals&quot;&gt;@3128aluminarwhals&lt;/a&gt;!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 08 Jan 2021 03:00:00 -0800</pubDate>
+        <link>http://team3128.org{}/preseason/2021/01/08/preseason-update.html</link>
+        <guid isPermaLink="true">http://team3128.org{}/preseason/2021/01/08/preseason-update.html</guid>
+        
+        
+        <category>preseason</category>
+        
+      </item>
+    
+      <item>
+        <title>San Diego Regional Update</title>
+        <description>&lt;p&gt;Hi all!&lt;/p&gt;
+
+&lt;p&gt;It is with great regret I inform y’all so early in the morning that the San Diego Regional (3/11-3/14) has been postponed to an unknown date.&lt;/p&gt;
+
+&lt;p&gt;Due to the prevalence of coronavirus, it has been highly recommended by the state of California that all gatherings of 250+ individuals be postponed or cancelled. FIRST HQ has decided to pursue this recommendation; thus, at 6:30 this morning, a notice was sent out from FIRST to our mentor, Chris Low:&lt;/p&gt;
+&lt;div style=&quot;white-space: pre-wrap;&quot;&gt;
+  &lt;code&gt;
+    Good Morning FRC Team Leaders,
+    I am writing to share hugely disheartening news that as a result of the quickly evolving COVID-19 situation and the California    Governor’s announcement of new guidelines released by the California Public Health Department that large gatherings over 250 people should be postponed or canceled, we have made the decision with leadership at FIRST Headquarters to postpone the San Diego Regional effective immediately.
+    California Health Department Policy: https://www.cdph.ca.gov/Programs/CID/DCDC/CDPH%20Document%20Library/Gathering_Guidance_03.11.20.pdf
+    We are disappointed that teams will not have a chance to compete this weekend and we recognize there will be many questions about how this will affect the remainder of the season, yet the health and safety of our teams, volunteers and community are top priority. The new dates for the San Diego Regional have not yet been set, but we are working closely with FIRST Headquarters to determine next steps. As soon as we have more details, we will share.
+    For teams that have already loaded in, we ask that you begin a safe load out this morning with 5 team members. If your team has not loaded in yet, you do not need to come as you won’t be admitted into the event.
+    This is a dynamically changing situation, and we greatly appreciate your understanding and gracious professionalism during these uncertain and challenging times.
+    Thank you so much!
+&lt;/code&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Of course, the health and safety of our team members far outweighs the importance of competition. Although it is unfortunate that our events are likely to be cancelled and that this will mark the beginning of the end of the season for Team 3128, the experience that we’ve gained is invaluable and irreplaceable. We will continue to work on our robot, even if we will not have another chance to compete on the official field.&lt;/p&gt;
+
+&lt;p&gt;The DMR Post-Mortem, temporarily on hold for edits, will be available soon.&lt;/p&gt;
+
+&lt;p&gt;You can read up on the latest updates for coronavirus published by SDUHSD &lt;a href=&quot;https://www.sduhsd.net/Coronavirus/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 12 Mar 2020 04:00:00 -0700</pubDate>
+        <link>http://team3128.org{}/competition-season/2020/03/12/san-diego-postponed.html</link>
+        <guid isPermaLink="true">http://team3128.org{}/competition-season/2020/03/12/san-diego-postponed.html</guid>
+        
+        
+        <category>competition-season</category>
+        
+      </item>
+    
+  </channel>
+</rss>
